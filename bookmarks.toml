@@ -180,7 +180,7 @@ icon = "https://logo.clearbit.com/iconstore.co"
 title = "Free 3D Icon"
 caption = "3D Icon"
 url = "https://free3dicon.com/"
-icon = "https://www.google.com/s2/favicons?domain=free3dicon.com&sz=128"
+icon = "https://storage.needpix.com/rsynced_images/earth-1681722_1280.png"
 
 [["Design"."Pictures 圖片"]]
 title = "Unsplash"
@@ -222,61 +222,67 @@ icon = "https://picjumbo.com/apple-touch-icon.png"
 title = "文青風綜合素材包分享！(66520)"
 caption = "六指淵特效教學網・字體／圖片／素材／模板"
 url = "https://www.sixvfx.com/art_enthusiast_footage"
-icon = "https://www.google.com/s2/favicons?domain=www.sixvfx.com&sz=128"
+icon = "https://storage.needpix.com/rsynced_images/earth-1681722_1280.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "unDraw"
 caption = "向量彩風"
 url = "https://undraw.co/illustrations"
 icon = "https://undraw.co/favicon.ico"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "Manypixel"
 caption = "向量彩風"
 url = "https://www.manypixels.co/gallery"
 icon = "https://cdn.prod.website-files.com/63a9cb71c629474d4ae334b9/63ac68e5916d9b5c5a24a999_Favicon%201.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "Freepik Stories"
 caption = "向量彩風"
 url = "https://www.freepik.com/stories"
 icon = "https://fps.cdnpk.net/favicons/favicon-96x96.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "silhouetteAC"
 caption = "向量剪影"
 url = "https://silhouette-ac.com/tw/"
 icon = "https://static.photo-ac.com/static/ico/favicon.silhouette_ac.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "Blush"
-caption = "插圖"
+caption = "Illustration 插圖"
 url = "https://blush.design/"
 icon = "https://blush.design/favicon-32x32.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "かわいいフリ"
 caption = "日式插圖"
 url = "https://www.irasutoya.com/"
 icon = "https://www.google.com/s2/favicons?domain=www.irasutoya.com&sz=128"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "Open Peeps"
 caption = "黑白人物"
 url = "https://www.openpeeps.com/"
 icon = "https://cdn.prod.website-files.com/5e51b3b0337309d672efd94c/5e51ce4e2c16e82ce80d8b42_icon.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "Open Doodles"
 caption = "黑白人物・畫筆風"
 url = "https://www.opendoodles.com/"
 icon = "https://cdn.prod.website-files.com/5d5d5904f8a21bfe5ff69367/5da4e9a054896ed6d830e869_icon-32w.png"
 
-[["Design"."插圖"]]
+[["Design"."Illustration 插圖"]]
 title = "Storytale"
-caption = "插圖"
+caption = "Illustration 插圖"
 url = "https://storytale.io/"
 icon = "https://logo.clearbit.com/storytale.io"
+
+[["Design"."Illustration 插圖"]]
+title = "IsoFlat"
+caption = "下載免費等角投影向量和圖形資源"
+url = "https://www.figma.com/community/file/1005992601634660550/free-isometric-abstract-illustration"
+icon = "https://static.figma.com/uploads/1a667ef53b7c4837049399d0593ffca39e0bec9e"
 
 [["Design"."Background 背景"]]
 title = "Paper-co"
@@ -284,11 +290,6 @@ caption = "紙質背景"
 url = "https://free-paper-texture.com/"
 icon = "https://free-paper-texture.com/06_paper/wp-content/themes/paper/images/logo.ico"
 
-[["Design"."色彩相關"]]
-title = "Gradient Backgrounds"
-caption = "CSS漸層背景"
-url = "https://cssgradient.io/gradient-backgrounds/"
-icon = "https://logo.clearbit.com/cssgradient.io"
 
 [["Design"."色彩相關"]]
 title = "COLOURLOVERS"
@@ -315,16 +316,22 @@ url = "https://www.materialpalette.com/"
 icon = "https://logo.clearbit.com/www.materialpalette.com"
 
 [["Design"."色彩相關"]]
-title = "Colordot"
-caption = "色彩選擇器"
-url = "https://color.hailpixel.com/"
-icon = "https://logo.clearbit.com/color.hailpixel.com"
-
-[["Design"."色彩相關"]]
 title = "Flat UI Colors 2"
 caption = "扁平化配色"
 url = "https://flatuicolors.com/"
 icon = "https://flatuicolors.com/static/favicon.ico"
+
+[["Design"."色彩相關"]]
+title = "flatuicolorpicker"
+caption = "扁平化配色選擇器"
+url = "http://www.flatuicolorpicker.com/"
+icon = "https://logo.clearbit.com/www.flatuicolorpicker.com"
+
+[["Design"."色彩相關"]]
+title = "Colordot"
+caption = "色彩選擇器"
+url = "https://color.hailpixel.com/"
+icon = "https://logo.clearbit.com/color.hailpixel.com"
 
 [["Design"."色彩相關"]]
 title = "Palettable"
@@ -340,15 +347,15 @@ icon = "https://logo.clearbit.com/www.webdesignrankings.com"
 
 [["Design"."色彩相關"]]
 title = "Eva Colors"
-caption = "AI配色工具"
+caption = "AI 配色工具"
 url = "https://colors.eva.design/"
 icon = "https://logo.clearbit.com/colors.eva.design"
 
 [["Design"."色彩相關"]]
-title = "SVG Wave"
-caption = "漸層波浪生成器"
-url = "https://svgwave.in/"
-icon = "https://logo.clearbit.com/svgwave.in"
+title = "Canva 色卡工具"
+caption = "圖片配色工具"
+url = "https://www.canva.com/colors/color-palette-generator/"
+icon = "https://logo.clearbit.com/www.canva.com"
 
 [["Design"."色彩相關"]]
 title = "Coolors.co"
@@ -363,6 +370,24 @@ url = "https://webgradients.com/"
 icon = "https://logo.clearbit.com/webgradients.com"
 
 [["Design"."色彩相關"]]
+title = "CoolHue 2.0"
+caption = "漸層配色"
+url = "https://webkul.github.io/coolhue/"
+icon = "https://logo.clearbit.com/webkul.github.io"
+
+[["Design"."色彩相關"]]
+title = "SVG Wave"
+caption = "漸層波浪生成器"
+url = "https://svgwave.in/"
+icon = "https://logo.clearbit.com/svgwave.in"
+
+[["Design"."色彩相關"]]
+title = "Gradient Backgrounds"
+caption = "CSS漸層背景"
+url = "https://cssgradient.io/gradient-backgrounds/"
+icon = "https://logo.clearbit.com/cssgradient.io"
+
+[["Design"."色彩相關"]]
 title = "日本傳統色系"
 caption = "日式配色"
 url = "https://nipponcolors.com/#usubeni"
@@ -375,22 +400,52 @@ url = "http://zhongguose.com/"
 icon = "https://zhongguose.com/favicon.ico"
 
 [["Design"."色彩相關"]]
-title = "CoolHue 2.0"
-caption = "漸層配色"
-url = "https://webkul.github.io/coolhue/"
-icon = "https://logo.clearbit.com/webkul.github.io"
+title = "Realtime Colors"
+caption = "風格預覽"
+url = "https://www.realtimecolors.com/"
+icon = "https://www.realtimecolors.com/favicon.png"
 
 [["Design"."色彩相關"]]
-title = "flatuicolorpicker"
-caption = "扁平化配色選擇器"
-url = "http://www.flatuicolorpicker.com/"
-icon = "https://logo.clearbit.com/www.flatuicolorpicker.com"
+title = "Cheeky Palettes"
+caption = "風格預覽（網頁）"
+url = "https://www.cheekypalettes.com/"
+icon = "https://www.cheekypalettes.com/favicon.png/"
+
+[["Design"."色彩相關"]]
+title = "Color Contrast Checker"
+caption = "顏色對比度確認"
+url = "https://coolors.co/contrast-checker/112a46-acc8e5"
+icon = "https://coolors.co/assets/img/favicon.png"
+
+[["Design"."色彩相關"]]
+title = "Color.review"
+caption = "顏色對比度確認（含色域覆蓋圈）"
+url = "https://color.review/"
+icon = "https://color.review/favicon-32x32.png"
+
+[["Design"."壓縮圖片／圖片處理"]]
+title = "squoosh"
+caption = "圖片壓縮工具"
+url = "https://squoosh.app/"
+icon = "https://logo.clearbit.com/squoosh.app"
 
 [["Design"."壓縮圖片／圖片處理"]]
 title = "Tinyjpg"
 caption = "圖片壓縮工具"
 url = "https://tinyjpg.com/"
 icon = "https://logo.clearbit.com/tinyjpg.com"
+
+[["Design"."壓縮圖片／圖片處理"]]
+title = "I LOVE IMG"
+caption = "圖片壓縮工具"
+url = "https://www.iloveimg.com/zh-tw/compress-image/compress-jpg"
+icon = "https://logo.clearbit.com/www.iloveimg.com"
+
+[["Design"."壓縮圖片／圖片處理"]]
+title = "compressor.io"
+caption = "圖片壓縮工具"
+url = "https://compressor.io/"
+icon = "https://logo.clearbit.com/compressor.io"
 
 [["Design"."壓縮圖片／圖片處理"]]
 title = "remove.bg"
@@ -409,24 +464,6 @@ title = "Adobe Express 去背"
 caption = "去背工具"
 url = "https://www.adobe.com/tw/express/feature/image/remove-background"
 icon = "https://logo.clearbit.com/www.adobe.com"
-
-[["Design"."壓縮圖片／圖片處理"]]
-title = "compressor.io"
-caption = "圖片壓縮工具"
-url = "https://compressor.io/"
-icon = "https://logo.clearbit.com/compressor.io"
-
-[["Design"."壓縮圖片／圖片處理"]]
-title = "squoosh"
-caption = "圖片壓縮工具"
-url = "https://squoosh.app/"
-icon = "https://logo.clearbit.com/squoosh.app"
-
-[["Design"."壓縮圖片／圖片處理"]]
-title = "I LOVE IMG"
-caption = "圖片壓縮工具"
-url = "https://www.iloveimg.com/zh-tw/compress-image/compress-jpg"
-icon = "https://logo.clearbit.com/www.iloveimg.com"
 
 [["Design"."Mockup 素材"]]
 title = "AI 實體產品 Mockup"
@@ -458,11 +495,66 @@ caption = "QR Code 產生工具"
 url = "https://qr.ioi.tw/zh/v6.php"
 icon = "https://www.google.com/s2/favicons?domain=qr.ioi.tw&sz=128"
 
-[["Design"."靈感相關"]]
+[["Design"."UI 設計資源"]]
+title = "Material Design"
+caption = "Google 設計系統"
+url = "https://m3.material.io/"
+icon = "https://m3.material.io/static/assets/m3-favicon.ico"
+
+[["Design"."UI 設計資源"]]
+title = "Apple 人机界面指南"
+caption = "Apple 設計系統"
+url = "https://developer.apple.com/cn/design/human-interface-guidelines/"
+icon = "https://developer.apple.com/favicon.ico"
+
+[["Design"."UI 設計資源"]]
+title = "Microsoft Fluent Design"
+caption = "微軟設計系統"
+url = "https://www.microsoft.com/design/fluent/#/"
+icon = "https://logo.clearbit.com/www.microsoft.com"
+
+[["Design"."UI 設計資源"]]
+title = "Ant Design"
+caption = "蚂蚁集团設計系統"
+url = "https://ant.design/"
+icon = "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png"
+
+[["Design"."UI 設計資源"]]
+title = "更多 Design System"
+caption = "UProkit - Curated UI Kits"
+url = "https://prokit.notion.site/Design-System-5ad286a7241c48fa960bf8fdd322a1b5"
+icon = "https://prokit.notion.site/images/favicon.ico"
+
+[["Design"."UI 設計資源"]]
 title = "APP 截圖｜UI Notes"
 caption = "APP UI 截圖收集"
 url = "https://uinotes.com/"
 icon = "https://uinotes.com/public/img/logo.svg"
+
+[["Design"."UI 設計資源"]]
+title = "App Motion"
+caption = "Mobile App 動畫參考"
+url = "https://appmotion.design/"
+icon = "https://framerusercontent.com/images/k0wxFckxvFRYtoPbMz1AyJ5xYs.png"
+
+[["Design"."UX 設計資源"]]
+title = "Laws of UX"
+caption = "UX 設計法則"
+url = "https://lawsofux.com/"
+icon = "https://lawsofux.com/icons/favicon.svg"
+
+[["Design"."UX 設計資源"]]
+title = "The UX Cookbook"
+caption = "UX 設計法則"
+url = "https://theuxcookbook.com"
+icon = "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b14c9f7f-c5a7-48b4-8a7d-8b25c8674cf9/logo-base/w=32,quality=90,fit=scale-down"
+
+[["Design"."UX 設計資源"]]
+title = "UX 四神湯開放平台"
+caption = "設計師的共享圖書館"
+url = "https://www.opendesign.tw/"
+icon = "https://assets.softr-files.com/applications/c867ccee-775f-4cb7-97a7-f6585cbf1b15/assets/01064c9c-0792-4305-bec8-49128e3ab329.jpeg?rnd=1670677165990"
+
 
 [["Design"."靈感相關"]]
 title = "設計師必備！網頁/UI 設計資源總整理"
@@ -470,11 +562,6 @@ caption = "Medium 文章"
 url = "https://medium.com/我是狐狸犬來福/網頁-web-前端設計師資源整理-ff3961972549"
 icon = "https://logo.clearbit.com/medium.com"
 
-[["Design"."靈感相關"]]
-title = "IsoFlat"
-caption = "下載免費等角投影向量和圖形資源"
-url = "https://isoflat.com/"
-icon = "https://logo.clearbit.com/isoflat.com"
 
 [["Design"."靈感相關"]]
 title = "Hotpot Design"
@@ -482,17 +569,12 @@ caption = "AI 輔助設計工具"
 url = "https://hotpot.ai/"
 icon = "https://logo.clearbit.com/hotpot.ai"
 
-[["Design"."靈感相關"]]
-title = "Microsoft Fluent Design"
-caption = "微軟設計系統"
-url = "https://www.microsoft.com/design/fluent/#/"
-icon = "https://logo.clearbit.com/www.microsoft.com"
 
 [["Design"."靈感相關"]]
-title = "Material Design"
-caption = "Google 設計系統"
-url = "https://m3.material.io/"
-icon = "https://m3.material.io/static/assets/m3-favicon.ico"
+title = "Deck of Brilliance"
+caption = "帮助创意专业人士产生点子"
+url = "https://deckofbrilliance.com/zh-hans/"
+icon = "https://www.sirstratalot.com/favicon-32x32.png"
 
 ["Office"]
 [["Office"."Tools"]]

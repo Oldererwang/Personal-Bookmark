@@ -218,22 +218,22 @@ def get_subcategory_html(subcategory_name: str, items: list) -> str:
 def get_item_html(item: dict) -> str:
     return f"""
     <div class="col-12 col-md-6 col-lg-3 col-xl-2">
-        <div class="card hover-link h-100">
-            <div class="card-body">
-                <div class="col-auto">
-                    <img src="{item.get("icon")}" width="32px" class="rounded">
-                </div>
-                <div class="col">
-                    <a href="{item.get("url")}" class="text-reset text-decoration-none">
+        <a href="{item.get("url")}" class="text-reset text-decoration-none">
+            <div class="card hover-link h-100">
+                <div class="card-body">
+                    <div class="col-auto">
+                        <img src="{item.get("icon")}" width="32px" class="rounded">
+                    </div>
+                    <div class="col">
                         <div class="link_div">
                             <strong class="link_title">{item.get("title")}</strong>
                             <p class="link_caption">{item.get("caption")}
                             </p>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
     """
 
