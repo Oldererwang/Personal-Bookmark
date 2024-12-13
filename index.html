@@ -1950,10 +1950,10 @@
     <script>
         function handleSearch(event) {
             event.preventDefault();
-            const searchText = document.getElementById('searchInput').value;
+            const searchText = document.getElementById('googleSearchInput').value;
             if (searchText.trim() !== '') {
                 const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchText)}`;
-                window.location.href = googleSearchUrl;
+                window.open(googleSearchUrl, '_blank'); // 使用 window.open 來開啟新分頁
             }
         }
 
