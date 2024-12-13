@@ -1,4 +1,5 @@
 import toml
+import python.checker as checker
 
 ################################################################################################
 head_html = """
@@ -242,6 +243,7 @@ def get_item_html(item: dict) -> str:
 def read_toml(file_path):
     try:
         data = toml.load(file_path)
+        checker.data_checker(data)
         return data
     except Exception as e:
         raise ImportError(f"Error reading file: {file_path}. {e}")
