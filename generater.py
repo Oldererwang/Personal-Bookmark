@@ -83,8 +83,8 @@ navbar_html = """
 """
 
 search_html = """
-<div class="container-fluid px-4" style="margin-top: 120px;">
-        <div class="row">
+<div class="container-fluid" style="margin-top: 120px;">
+        <div class="row px-4">
             <div class="col-12 p-2 border border-1 rounded-pill overflow-hidden">
                 <form id="searchForm" class="d-flex" onsubmit="handleSearch(event)">
                     <input type="text" class="form-control me-2" placeholder="請輸入搜尋關鍵字..." id="googleSearchInput"
@@ -247,10 +247,8 @@ def read_toml(file_path):
         raise ImportError(f"Error reading file: {file_path}. {e}")
 
 
-# 使用範例
 file_path = "bookmarks.toml"
 bookmark_datas = read_toml(file_path)
-
 
 ################################################################################################
 full_html = f"""
