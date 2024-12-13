@@ -590,10 +590,16 @@ url = "https://chroniclehq.com/"
 icon = "https://logo.clearbit.com/chroniclehq.com"
 
 [["Office"."Tools"]]
-title = "Canva"
-caption = "圖像設計工具"
+title = "Canva Whiteboard"
+caption = "白板工具"
 url = "https://www.canva.com/zh_tw/"
 icon = "https://www.canva.com/favicon.ico"
+
+[["Office"."Tools"]]
+title = "Miro"
+caption = "線上白板工具"
+url = "https://miro.com/"
+icon = "https://static-website.miro.com/miro-site-lp-build-assets/assets/favicon.ico"
 
 [["Office"."Tools"]]
 title = "顏文字大全"
