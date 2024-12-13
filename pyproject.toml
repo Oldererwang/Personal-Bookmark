@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "person-bookmarks"
+version = "0.1.0"
+description = ""
+authors = ["tony13382 <ttsmcpe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+toml = "^0.10.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
