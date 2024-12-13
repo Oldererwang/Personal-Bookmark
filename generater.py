@@ -88,7 +88,7 @@ search_html = """
         <div class="row px-4">
             <div class="col-12 p-2 border border-1 rounded-pill overflow-hidden">
                 <form id="searchForm" class="d-flex" onsubmit="handleSearch(event)">
-                    <input type="text" class="form-control me-2" placeholder="請輸入搜尋關鍵字..." id="googleSearchInput"
+                    <input type="text" class="form-control me-2" placeholder="Google 快速搜尋" id="googleSearchInput"
                         required>
                     <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
                         Search
