@@ -582,6 +582,8 @@ caption = "帮助创意专业人士产生点子"
 url = "https://deckofbrilliance.com/zh-hans/"
 icon = "https://www.sirstratalot.com/favicon-32x32.png"
 
+##############################################
+
 ["Office"]
 [["Office"."Tools"]]
 title = "縮網址｜Dub.co"
@@ -590,22 +592,22 @@ url = "https://app.dub.co/"
 icon = "https://app.dub.co/favicon.ico"
 
 [["Office"."Tools"]]
+title = "Google Drive"
+caption = "雲端儲存空間"
+url = "https://drive.google.com/drive/"
+icon = "https://logo.clearbit.com/drive.google.com"
+
+[["Office"."Tools"]]
 title = "Slide｜Chroniclehq"
 caption = "簡報製作工具"
 url = "https://chroniclehq.com/"
 icon = "https://logo.clearbit.com/chroniclehq.com"
 
 [["Office"."Tools"]]
-title = "Canva Whiteboard"
-caption = "白板工具"
-url = "https://www.canva.com/zh_tw/"
-icon = "https://www.canva.com/favicon.ico"
-
-[["Office"."Tools"]]
-title = "Miro"
-caption = "線上白板工具"
-url = "https://miro.com/"
-icon = "https://static-website.miro.com/miro-site-lp-build-assets/assets/favicon.ico"
+title = "Figma Slides"
+caption = "簡報設計工具"
+url = "https://www.figma.com/"
+icon = "https://static.figma.com/app/icon/1/favicon.ico"
 
 [["Office"."Tools"]]
 title = "顏文字大全"
@@ -614,16 +616,22 @@ url = "https://symbols.wisdom-life.in/zh-TW/emoticon/useful"
 icon = "https://logo.clearbit.com/symbols.wisdom-life.in"
 
 [["Office"."Tools"]]
-title = "Google Drive"
-caption = "雲端儲存空間"
-url = "https://drive.google.com/drive/"
-icon = "https://logo.clearbit.com/drive.google.com"
+title = "Portaly.cc"
+caption = "link in bio 工具"
+url = "https://portaly.cc/admin"
+icon = "https://portaly.cc/_next/image?url=/logo-p.svg&w=128&q=75"
 
-[["Office"."Tools"]]
-title = "Figma Slides"
-caption = "簡報設計工具"
-url = "https://www.figma.com/"
-icon = "https://static.figma.com/app/icon/1/favicon.ico"
+[["Office"."白板工具"]]
+title = "Miro"
+caption = "線上白板工具"
+url = "https://miro.com/"
+icon = "https://static-website.miro.com/miro-site-lp-build-assets/assets/favicon.ico"
+
+[["Office"."白板工具"]]
+title = "Canva Whiteboard"
+caption = "白板工具"
+url = "https://www.canva.com/zh_tw/"
+icon = "https://www.canva.com/favicon.ico"
 
 [["Office"."時間管理工具"]]
 title = "Notion Calender"
