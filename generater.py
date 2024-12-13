@@ -86,9 +86,9 @@ navbar_html = """
 search_html = """
 <div class="container-fluid" style="margin-top: 120px;">
         <div class="row px-4">
-            <div class="col-12 p-2 border border-1 rounded-pill overflow-hidden">
+            <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
                 <form id="searchForm" class="d-flex" onsubmit="handleSearch(event)">
-                    <input type="text" class="form-control me-2" placeholder="Google 快速搜尋" id="googleSearchInput"
+                    <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋" id="googleSearchInput"
                         required>
                     <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
                         Search
@@ -111,7 +111,7 @@ function handleSearch(event) {
 """
 
 totop_html = """
-<button id="toTop" class="position-fixed bottom-0 start-0 m-4 border-0 "
+<button id="toTop" class="position-fixed bottom-0 start-0 m-4 border-0 shadow-md"
 style="display: none; background-color: #515e2e00;">
     <div style="width: 48px;height: 48px;"
         class="btn btn-primary rounded-circle d-flex justify-content-center align-items-center">
@@ -262,7 +262,7 @@ full_html = f"""
     <style>{page_css}</style>
 </head>
 
-<body>
+<body style="background-image: url('https://free-paper-texture.com/p/p0435/p0435_m.jpg');">
     {navbar_html}
 
     {search_html}
