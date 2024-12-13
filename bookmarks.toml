@@ -604,12 +604,6 @@ url = "https://www.figma.com/"
 icon = "https://static.figma.com/app/icon/1/favicon.ico"
 
 [["Office"."Tools"]]
-title = "顏文字大全"
-caption = "顏文字素材庫"
-url = "https://symbols.wisdom-life.in/zh-TW/emoticon/useful"
-icon = "https://logo.clearbit.com/symbols.wisdom-life.in"
-
-[["Office"."Tools"]]
 title = "Portaly.cc"
 caption = "link in bio 工具"
 url = "https://portaly.cc/admin"
@@ -656,3 +650,15 @@ title = "When2meet"
 caption = "團隊時間協調工具"
 url = "https://www.when2meet.com/"
 icon = "https://logo.clearbit.com/www.when2meet.com"
+
+[["Office"."文字作業"]]
+title = "顏文字大全"
+caption = "顏文字素材庫"
+url = "https://symbols.wisdom-life.in/zh-TW/emoticon/useful"
+icon = "https://logo.clearbit.com/symbols.wisdom-life.in"
+
+[["Office"."文字作業"]]
+title = "盤古之白 - 文案排版轉換"
+caption = "中英文字處理工具"
+url = "https://pangu.serko.dev"
+icon = "https://pangu.serko.dev/favicon.ico"
