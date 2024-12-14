@@ -62,8 +62,9 @@ page_css = """
         opacity: 0.7;
     }
 
-    #googleSearchInput {
-        border: 0;
+    #googleSearchInput, #feloSearchInput {
+        border: 0 !important;
+        border-radius: 999px !important;
     }
 """
 
