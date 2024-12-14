@@ -1,4 +1,4 @@
-name: Generate HTML and Create New Branch
+name: Generate HTML and Create New Branch to update page
 
 on:
   push:
