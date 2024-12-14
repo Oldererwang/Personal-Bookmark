@@ -45,16 +45,10 @@ url = "https://github.com/"
 icon = "https://github.com/favicon.ico"
 
 [["Develope"."Tools"]]
-title = "Deepnote"
-caption = "線上資料分析平台"
-url = "https://deepnote.com/"
-icon = "https://logo.clearbit.com/deepnote.com"
-
-[["Develope"."Tools"]]
-title = "Codepen"
-caption = "線上程式碼編輯器"
-url = "https://codepen.io/"
-icon = "https://logo.clearbit.com/codepen.io"
+title = "Linear"
+caption = "Issue 管理工具"
+url = "https://linear.app/"
+icon = "https://logo.clearbit.com/linear.app"
 
 [["Develope"."Tools"]]
 title = "Draw.io"
@@ -62,11 +56,24 @@ caption = "開源易於使用的圖表編輯器"
 url = "https://app.diagrams.net/"
 icon = "https://app.diagrams.net/favicon.ico"
 
-[["Develope"."Tools"]]
+
+[["Develope"."IDEs"]]
+title = "Deepnote"
+caption = "線上資料分析平台"
+url = "https://deepnote.com/"
+icon = "https://logo.clearbit.com/deepnote.com"
+
+[["Develope"."IDEs"]]
 title = "Python 编译器"
 caption = "Python 線上編譯器"
 url = "https://www.programiz.com/python-programming/online-compiler/"
 icon = "https://logo.clearbit.com/www.programiz.com"
+
+[["Develope"."IDEs"]]
+title = "Codepen"
+caption = "線上程式碼編輯器"
+url = "https://codepen.io/"
+icon = "https://logo.clearbit.com/codepen.io"
 
 [["Develope"."線上服務"]]
 title = "Cloudflare 儀表板"
@@ -665,12 +672,6 @@ title = "Google Calender"
 caption = "Google 行事曆"
 url = "https://calendar.google.com/calendar/"
 icon = "https://logo.clearbit.com/calendar.google.com"
-
-[["Office"."時間管理工具"]]
-title = "Linear"
-caption = "專案時程管理工具"
-url = "https://linear.app/"
-icon = "https://logo.clearbit.com/linear.app"
 
 [["Office"."時間管理工具"]]
 title = "Simplymeet"

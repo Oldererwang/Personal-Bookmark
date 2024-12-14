@@ -87,18 +87,53 @@
 
     
 <div class="container-fluid" style="margin-top: 120px;">
-        <div class="row px-4">
-            <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
-                <form id="searchForm" class="d-flex" onsubmit="handleSearch(event)">
-                    <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋" id="googleSearchInput"
-                        required>
-                    <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
-                        Search
-                    </button>
-                </form>
+    <div class="row px-4">
+        <div class="col-12">
+            <ul class="nav nav-underline" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                        data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                        aria-selected="true">Google</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                        aria-selected="false">Felo (AI Search)</button>
+                </li>
+            </ul>
+            <div class="tab-content py-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
+                            <form id="searchFormG" class="d-flex" onsubmit="handleSearch(event,'google')">
+                                <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋"
+                                    id="googleSearchInput" required>
+                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
+                            <form id="searchFormF" class="d-flex" onsubmit="handleSearch(event,'felo')">
+                                <input type="text" class="bg-body form-control me-2" placeholder="Felo AI 快速搜尋"
+                                    id="feloSearchInput" required>
+                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 
 
     <div class="container-fluid py-4 px-lg-4">
@@ -312,35 +347,16 @@
     </div>
     
     <div class="col-12 col-md-6 col-lg-3 col-xl-2">
-        <a href="https://deepnote.com/" class="text-reset text-decoration-none">
+        <a href="https://linear.app/" class="text-reset text-decoration-none">
             <div class="card hover-link h-100">
                 <div class="card-body">
                     <div class="col-auto">
-                        <img src="https://logo.clearbit.com/deepnote.com" width="32px" class="rounded">
+                        <img src="https://logo.clearbit.com/linear.app" width="32px" class="rounded">
                     </div>
                     <div class="col">
                         <div class="link_div">
-                            <strong class="link_title">Deepnote</strong>
-                            <p class="link_caption">線上資料分析平台
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-    
-    <div class="col-12 col-md-6 col-lg-3 col-xl-2">
-        <a href="https://codepen.io/" class="text-reset text-decoration-none">
-            <div class="card hover-link h-100">
-                <div class="card-body">
-                    <div class="col-auto">
-                        <img src="https://logo.clearbit.com/codepen.io" width="32px" class="rounded">
-                    </div>
-                    <div class="col">
-                        <div class="link_div">
-                            <strong class="link_title">Codepen</strong>
-                            <p class="link_caption">線上程式碼編輯器
+                            <strong class="link_title">Linear</strong>
+                            <p class="link_caption">Issue 管理工具
                             </p>
                         </div>
                     </div>
@@ -368,6 +384,30 @@
         </a>
     </div>
     
+    </div><div class="row g-3 pb-5">
+        <div class="col-12">
+            <h2 class="pb-0">IDEs</h2>
+        </div>
+        
+    <div class="col-12 col-md-6 col-lg-3 col-xl-2">
+        <a href="https://deepnote.com/" class="text-reset text-decoration-none">
+            <div class="card hover-link h-100">
+                <div class="card-body">
+                    <div class="col-auto">
+                        <img src="https://logo.clearbit.com/deepnote.com" width="32px" class="rounded">
+                    </div>
+                    <div class="col">
+                        <div class="link_div">
+                            <strong class="link_title">Deepnote</strong>
+                            <p class="link_caption">線上資料分析平台
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    
     <div class="col-12 col-md-6 col-lg-3 col-xl-2">
         <a href="https://www.programiz.com/python-programming/online-compiler/" class="text-reset text-decoration-none">
             <div class="card hover-link h-100">
@@ -379,6 +419,25 @@
                         <div class="link_div">
                             <strong class="link_title">Python 编译器</strong>
                             <p class="link_caption">Python 線上編譯器
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-3 col-xl-2">
+        <a href="https://codepen.io/" class="text-reset text-decoration-none">
+            <div class="card hover-link h-100">
+                <div class="card-body">
+                    <div class="col-auto">
+                        <img src="https://logo.clearbit.com/codepen.io" width="32px" class="rounded">
+                    </div>
+                    <div class="col">
+                        <div class="link_div">
+                            <strong class="link_title">Codepen</strong>
+                            <p class="link_caption">線上程式碼編輯器
                             </p>
                         </div>
                     </div>
@@ -2358,25 +2417,6 @@
     </div>
     
     <div class="col-12 col-md-6 col-lg-3 col-xl-2">
-        <a href="https://linear.app/" class="text-reset text-decoration-none">
-            <div class="card hover-link h-100">
-                <div class="card-body">
-                    <div class="col-auto">
-                        <img src="https://logo.clearbit.com/linear.app" width="32px" class="rounded">
-                    </div>
-                    <div class="col">
-                        <div class="link_div">
-                            <strong class="link_title">Linear</strong>
-                            <p class="link_caption">專案時程管理工具
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-    
-    <div class="col-12 col-md-6 col-lg-3 col-xl-2">
         <a href="https://simplymeet.me/" class="text-reset text-decoration-none">
             <div class="card hover-link h-100">
                 <div class="card-body">
@@ -2484,11 +2524,20 @@ style="display: none; background-color: #30262400;">
         crossorigin="anonymous"></script>
     <script>
         
-function handleSearch(event) {
+function handleSearch(event, engine) {
+    id_block = "";
+    url = "";
+    if (engine == "google") {
+        id_block = "googleSearchInput";
+        url = "https://www.google.com/search";
+    } else if (engine == "felo") {
+        id_block = "feloSearchInput";
+        url = "https://felo.ai/zh-Hant/search";
+    }
     event.preventDefault();
-    const searchText = document.getElementById('googleSearchInput').value;
+    const searchText = document.getElementById(id_block).value;
     if (searchText.trim() !== '') {
-        const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchText)}`;
+        const googleSearchUrl = `${url}?q=${encodeURIComponent(searchText)}`;
         window.open(googleSearchUrl, '_blank'); // 使用 window.open 來開啟新分頁
     }
 }

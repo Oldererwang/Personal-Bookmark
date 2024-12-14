@@ -85,26 +85,70 @@ navbar_html = """
 
 search_html = """
 <div class="container-fluid" style="margin-top: 120px;">
-        <div class="row px-4">
-            <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
-                <form id="searchForm" class="d-flex" onsubmit="handleSearch(event)">
-                    <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋" id="googleSearchInput"
-                        required>
-                    <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
-                        Search
-                    </button>
-                </form>
+    <div class="row px-4">
+        <div class="col-12">
+            <ul class="nav nav-underline" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                        data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                        aria-selected="true">Google</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                        aria-selected="false">Felo (AI Search)</button>
+                </li>
+            </ul>
+            <div class="tab-content py-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
+                            <form id="searchFormG" class="d-flex" onsubmit="handleSearch(event,'google')">
+                                <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋"
+                                    id="googleSearchInput" required>
+                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
+                            <form id="searchFormF" class="d-flex" onsubmit="handleSearch(event,'felo')">
+                                <input type="text" class="bg-body form-control me-2" placeholder="Felo AI 快速搜尋"
+                                    id="feloSearchInput" required>
+                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 """
 
 search_js = """
-function handleSearch(event) {
+function handleSearch(event, engine) {
+    id_block = "";
+    url = "";
+    if (engine == "google") {
+        id_block = "googleSearchInput";
+        url = "https://www.google.com/search";
+    } else if (engine == "felo") {
+        id_block = "feloSearchInput";
+        url = "https://felo.ai/zh-Hant/search";
+    }
     event.preventDefault();
-    const searchText = document.getElementById('googleSearchInput').value;
+    const searchText = document.getElementById(id_block).value;
     if (searchText.trim() !== '') {
-        const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchText)}`;
+        const googleSearchUrl = `${url}?q=${encodeURIComponent(searchText)}`;
         window.open(googleSearchUrl, '_blank'); // 使用 window.open 來開啟新分頁
     }
 }
