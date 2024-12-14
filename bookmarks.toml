@@ -97,7 +97,7 @@ icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azur
 title = "Openai Playground"
 caption = "Openai 模型測試平台"
 url = "https://platform.openai.com/playground/chat?models=gpt-4o"
-icon = "https://avatars.githubusercontent.com/u/127165244?v=4"
+icon = "https://chatgpt.com/favicon.ico"
 
 [["Develope"."線上服務"]]
 title = "Dify"
