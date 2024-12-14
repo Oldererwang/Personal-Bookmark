@@ -29,19 +29,20 @@ caption = "有名的 AI 搜索引擎"
 url = "https://www.perplexity.ai"
 icon = "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/perplexity-ai-icon.png"
 
+##############################################
 
 ["Develope"]
+[["Develope"."Tools"]]
+title = "Claude"
+caption = "適合程式碼生成或長文生成"
+url = "https://claude.ai"
+icon = "https://claude.ai/favicon.ico"
+
 [["Develope"."Tools"]]
 title = "Github"
 caption = "Code Manage"
 url = "https://github.com/"
 icon = "https://github.com/favicon.ico"
-
-[["Develope"."Tools"]]
-title = "Cloudflare 儀表板"
-caption = "網站服務管理平台"
-url = "https://dash.cloudflare.com/"
-icon = "https://dash.cloudflare.com/favicon.ico"
 
 [["Develope"."Tools"]]
 title = "Deepnote"
@@ -66,6 +67,36 @@ title = "Python 编译器"
 caption = "Python 線上編譯器"
 url = "https://www.programiz.com/python-programming/online-compiler/"
 icon = "https://logo.clearbit.com/www.programiz.com"
+
+[["Develope"."線上服務"]]
+title = "Cloudflare 儀表板"
+caption = "網站服務管理平台"
+url = "https://dash.cloudflare.com/"
+icon = "https://dash.cloudflare.com/favicon.ico"
+
+[["Develope"."線上服務"]]
+title = "火山引擎"
+caption = "火山引擎服務管理平台"
+url = "https://console.volcengine.com/auth/login?redirectURI=/speech/service/8?AppID%3D2041978174"
+icon = "https://res.volccdn.com/obj/volc-console-fe/images/favicon.52bcaa41.png"
+
+[["Develope"."線上服務"]]
+title = "Microsoft Azure"
+caption = "Azure 服務管理平台"
+url = "https://portal.azure.com/#home"
+icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png"
+
+[["Develope"."線上服務"]]
+title = "Openai Playground"
+caption = "Openai 模型測試平台"
+url = "https://platform.openai.com/playground/chat?models=gpt-4o"
+icon = "https://avatars.githubusercontent.com/u/127165244?v=4"
+
+[["Develope"."線上服務"]]
+title = "Dify"
+caption = "AI Chatbot 開發服務"
+url = "https://cloud.dify.ai/apps"
+icon = "https://avatars.githubusercontent.com/u/127165244?v=4"
 
 [["Develope"."CSS Framework"]]
 title = "Bootstrap"
@@ -114,6 +145,8 @@ title = "tailwindcss"
 caption = "CSS 框架文件"
 url = "https://tailwindcss.com/"
 icon = "https://tailwindcss.com/favicons/favicon.ico?v=3"
+
+##############################################
 
 ["Design"]
 [["Design"."Tools"]]
@@ -415,7 +448,7 @@ icon = "https://www.cheekypalettes.com/favicon.png/"
 title = "Color Contrast Checker"
 caption = "顏色對比度確認"
 url = "https://coolors.co/contrast-checker/112a46-acc8e5"
-icon = "https://coolors.co/assets/img/favicon.png"
+icon = "https://coolors.co/assets/img/ios_icon.png"
 
 [["Design"."色彩相關"]]
 title = "Color.review"
