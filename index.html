@@ -63,9 +63,12 @@
         opacity: 0.7;
     }
 
-    #googleSearchInput, #feloSearchInput {
-        border: 0 !important;
-        border-radius: 999px !important;
+    #googleSearchInput, #feloSearchInput, #chatgptSearchInput {
+        border: 0px !important;
+        border-radius: 16px !important;
+    }
+    .search_content {
+        border-radius: 28px !important;
     }
 </style>
 </head>
@@ -90,23 +93,28 @@
 <div class="container-fluid" style="margin-top: 120px;">
     <div class="row px-4">
         <div class="col-12">
-            <ul class="nav nav-underline" id="myTab" role="tablist">
+            <ul class="nav nav-underline" id="search" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                        data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                    <button class="nav-link active" id="google-tab" data-bs-toggle="tab"
+                        data-bs-target="#google-tab-pane" type="button" role="tab" aria-controls="google-tab-pane"
                         aria-selected="true">Google</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                        data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                    <button class="nav-link" id="chatgpt-tab" data-bs-toggle="tab"
+                        data-bs-target="#chatgpt-tab-pane" type="button" role="tab" aria-controls="chatgpt-tab-pane"
+                        aria-selected="false">ChatGPT</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="felo-tab" data-bs-toggle="tab"
+                        data-bs-target="#felo-tab-pane" type="button" role="tab" aria-controls="felo-tab-pane"
                         aria-selected="false">Felo (AI Search)</button>
                 </li>
             </ul>
-            <div class="tab-content py-3" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            <div class="tab-content py-3" id="searchContent">
+                <div class="tab-pane fade show active" id="google-tab-pane" role="tabpanel" aria-labelledby="google-tab"
                     tabindex="0">
                     <div class="row">
-                        <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
+                        <div class="col-12 p-2 border border-1 bg-body search_content overflow-hidden">
                             <form id="searchFormG" class="d-flex" onsubmit="handleSearch(event,'google')">
                                 <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋"
                                     id="googleSearchInput" required>
@@ -117,10 +125,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                <div class="tab-pane fade" id="chatgpt-tab-pane" role="tabpanel" aria-labelledby="chatgpt-tab"
                     tabindex="0">
                     <div class="row">
-                        <div class="col-12 p-2 border border-1 bg-body rounded-pill overflow-hidden">
+                        <div class="col-12 p-2 border border-1 bg-body search_content overflow-hidden">
+                            <form id="searchFormF" class="d-flex" onsubmit="handleSearch(event,'chatgpt')">
+                                <textarea class="bg-body form-control me-2" placeholder="ChatGPT"
+                                    id="chatgptSearchInput" required></textarea>
+                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="felo-tab-pane" role="tabpanel" aria-labelledby="felo-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-12 p-2 border border-1 bg-body search_content overflow-hidden">
                             <form id="searchFormF" class="d-flex" onsubmit="handleSearch(event,'felo')">
                                 <input type="text" class="bg-body form-control me-2" placeholder="Felo AI 快速搜尋"
                                     id="feloSearchInput" required>
@@ -2531,6 +2553,9 @@ function handleSearch(event, engine) {
     if (engine == "google") {
         id_block = "googleSearchInput";
         url = "https://www.google.com/search";
+    } else if (engine == "chatgpt") {
+        id_block = "chatgptSearchInput";
+        url = "https://chatgpt.com";
     } else if (engine == "felo") {
         id_block = "feloSearchInput";
         url = "https://felo.ai/zh-Hant/search";
