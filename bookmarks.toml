@@ -11,6 +11,12 @@ caption = "適合複雜性任務（發散想法）"
 url = "https://chatgpt.com/"
 icon = "https://chatgpt.com/favicon.ico"
 
+[["AI Tools"."Chat"]]
+title = "Kimi.ai"
+caption = "長文＋搜尋的中文語言模型"
+url = "https://kimi.moonshot.cn"
+icon = "https://statics.moonshot.cn/kimi-chat/favicon.ico"
+
 [["AI Tools"."Search"]]
 title = "ChatGPT Search"
 caption = "基於 Bing 的 AI 搜索引擎"
