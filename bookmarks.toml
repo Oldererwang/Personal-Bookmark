@@ -626,12 +626,6 @@ icon = "https://www.sirstratalot.com/favicon-32x32.png"
 
 ["Office"]
 [["Office"."Tools"]]
-title = "縮網址｜Dub.co"
-caption = "縮短網址工具"
-url = "https://app.dub.co/"
-icon = "https://app.dub.co/favicon.ico"
-
-[["Office"."Tools"]]
 title = "Google Drive"
 caption = "雲端儲存空間"
 url = "https://drive.google.com/drive/"
@@ -650,6 +644,24 @@ url = "https://www.figma.com/"
 icon = "https://static.figma.com/app/icon/1/favicon.ico"
 
 [["Office"."Tools"]]
+title = "線上 PDF・Adobe Acrobat (台灣)"
+caption = "PDF 編輯工具"
+url = "https://www.adobe.com/tw/acrobat/online.html"
+icon = "https://www.adobe.com/content/dam/dx-dc/favicons/favicon.ico"
+
+[["Office"."Tools"]]
+title = "iLovePDF・為PDF愛好者提供的PDF文檔在線轉換工具"
+caption = "PDF 編輯工具"
+url = "https://www.ilovepdf.com/zh-tw"
+icon = "https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png"
+
+[["Office"."連結工具"]]
+title = "縮網址｜Dub.co"
+caption = "縮短網址工具"
+url = "https://app.dub.co/"
+icon = "https://app.dub.co/favicon.ico"
+
+[["Office"."連結工具"]]
 title = "Portaly.cc"
 caption = "link in bio 工具"
 url = "https://portaly.cc/admin"
@@ -695,7 +707,7 @@ icon = "https://logo.clearbit.com/www.when2meet.com"
 title = "顏文字大全"
 caption = "顏文字素材庫"
 url = "https://symbols.wisdom-life.in/zh-TW/emoticon/useful"
-icon = "https://logo.clearbit.com/symbols.wisdom-life.in"
+icon = "https://symbols.wisdom-life.in/favicon.png"
 
 [["Office"."文字作業"]]
 title = "盤古之白 - 文案排版轉換"
