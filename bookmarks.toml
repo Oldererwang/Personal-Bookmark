@@ -461,7 +461,7 @@ icon = "https://www.cheekypalettes.com/favicon.png/"
 title = "Color Contrast Checker"
 caption = "顏色對比度確認"
 url = "https://coolors.co/contrast-checker/112a46-acc8e5"
-icon = "https://coolors.co/assets/img/ios_icon.png"
+icon = "https://s3-alpha.figma.com/profile/83ff6b2d-5010-424f-ab38-803898f0d171"
 
 [["Design"."色彩相關"]]
 title = "Color.review"
