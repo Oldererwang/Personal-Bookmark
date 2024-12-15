@@ -111,6 +111,12 @@ caption = "AI Chatbot 開發服務"
 url = "https://cloud.dify.ai/apps"
 icon = "https://avatars.githubusercontent.com/u/127165244?v=4"
 
+[["Develope"."線上服務"]]
+title = "Google Search Console"
+caption = "Google 網站索引管理平台"
+url = "https://search.google.com/u/1/search-console"
+icon = "https://www.gstatic.com/search-console/scfe/search_console-128.png"
+
 [["Develope"."CSS Framework"]]
 title = "Bootstrap"
 caption = "主流 CSS 框架"
