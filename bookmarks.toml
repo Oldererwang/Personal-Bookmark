@@ -650,7 +650,7 @@ url = "https://www.figma.com/"
 icon = "https://static.figma.com/app/icon/1/favicon.ico"
 
 [["Office"."Tools"]]
-title = "線上 PDF・Adobe Acrobat (台灣)"
+title = "Adobe 線上 PDF"
 caption = "PDF 編輯工具"
 url = "https://www.adobe.com/tw/acrobat/online.html"
 icon = "https://www.adobe.com/content/dam/dx-dc/favicons/favicon.ico"
@@ -662,7 +662,7 @@ url = "https://www.ilovepdf.com/zh-tw"
 icon = "https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png"
 
 [["Office"."連結工具"]]
-title = "縮網址｜Dub.co"
+title = "Dub.co"
 caption = "縮短網址工具"
 url = "https://app.dub.co/"
 icon = "https://app.dub.co/favicon.ico"
