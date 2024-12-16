@@ -656,8 +656,8 @@ url = "https://www.adobe.com/tw/acrobat/online.html"
 icon = "https://www.adobe.com/content/dam/dx-dc/favicons/favicon.ico"
 
 [["Office"."Tools"]]
-title = "iLovePDF・為PDF愛好者提供的PDF文檔在線轉換工具"
-caption = "PDF 編輯工具"
+title = "iLovePDF"
+caption = "PDF 線上編輯工具"
 url = "https://www.ilovepdf.com/zh-tw"
 icon = "https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png"
 
