@@ -349,133 +349,145 @@ url = "https://free-paper-texture.com/"
 icon = "https://free-paper-texture.com/06_paper/wp-content/themes/paper/images/logo.ico"
 
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "COLOURLOVERS"
 caption = "色彩配色靈感"
 url = "https://www.colourlovers.com/palettes"
 icon = "https://logo.clearbit.com/www.colourlovers.com"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
+title = "Dopely Colors"
+caption = "色彩配色靈感"
+url = "https://colors.dopely.top/palettes"
+icon = "https://colors.dopely.top/static/dc.png"
+
+[["Design"."Colors 色彩相關"]]
 title = "Color Hunt"
 caption = "配色方案"
 url = "https://colorhunt.co/"
 icon = "https://logo.clearbit.com/colorhunt.co"
 
-[["Design"."色彩相關"]]
-title = "Ant Design"
-caption = "設計系統配色"
-url = "https://ant.design/docs/spec/colors-cn"
-icon = "https://logo.clearbit.com/ant.design"
-
-[["Design"."色彩相關"]]
-title = "Material Design Color"
-caption = "Material配色"
-url = "https://www.materialpalette.com/"
-icon = "https://logo.clearbit.com/www.materialpalette.com"
-
-[["Design"."色彩相關"]]
-title = "Flat UI Colors 2"
-caption = "扁平化配色"
-url = "https://flatuicolors.com/"
-icon = "https://flatuicolors.com/static/favicon.ico"
-
-[["Design"."色彩相關"]]
-title = "flatuicolorpicker"
-caption = "扁平化配色選擇器"
-url = "http://www.flatuicolorpicker.com/"
-icon = "https://logo.clearbit.com/www.flatuicolorpicker.com"
-
-[["Design"."色彩相關"]]
-title = "Colordot"
-caption = "色彩選擇器"
-url = "https://color.hailpixel.com/"
-icon = "https://logo.clearbit.com/color.hailpixel.com"
-
-[["Design"."色彩相關"]]
-title = "Palettable"
-caption = "互動式配色生成"
-url = "https://www.palettable.io/D09661"
-icon = "https://logo.clearbit.com/www.palettable.io"
-
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "LOLCOLORS"
 caption = "精選配色方案"
 url = "https://www.webdesignrankings.com/resources/lolcolors/"
 icon = "https://logo.clearbit.com/www.webdesignrankings.com"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
+title = "Ant Design"
+caption = "設計系統配色"
+url = "https://ant.design/docs/spec/colors-cn"
+icon = "https://logo.clearbit.com/ant.design"
+
+[["Design"."Colors 色彩相關"]]
+title = "Material Design Color"
+caption = "Material配色"
+url = "https://www.materialpalette.com/"
+icon = "https://logo.clearbit.com/www.materialpalette.com"
+
+[["Design"."Colors 色彩相關"]]
+title = "Flat UI Colors 2"
+caption = "扁平化配色"
+url = "https://flatuicolors.com/"
+icon = "https://flatuicolors.com/static/favicon.ico"
+
+[["Design"."Colors 色彩相關"]]
+title = "flatuicolorpicker"
+caption = "扁平化配色選擇器"
+url = "http://www.flatuicolorpicker.com/"
+icon = "https://logo.clearbit.com/www.flatuicolorpicker.com"
+
+[["Design"."Colors 色彩相關"]]
+title = "Colordot"
+caption = "色彩選擇器"
+url = "https://color.hailpixel.com/"
+icon = "https://logo.clearbit.com/color.hailpixel.com"
+
+[["Design"."Colors 色彩相關"]]
+title = "Scale"
+caption = "色階產生器"
+url = "https://hihayk.github.io/scale/"
+icon = "https://hihayk.github.io/scale/favicon.ico"
+
+[["Design"."Colors 色彩相關"]]
+title = "Palettable"
+caption = "互動式配色生成"
+url = "https://www.palettable.io/D09661"
+icon = "https://logo.clearbit.com/www.palettable.io"
+
+[["Design"."Colors 色彩相關"]]
 title = "Eva Colors"
 caption = "AI 配色工具"
 url = "https://colors.eva.design/"
 icon = "https://logo.clearbit.com/colors.eva.design"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Canva 色卡工具"
 caption = "圖片配色工具"
 url = "https://www.canva.com/colors/color-palette-generator/"
 icon = "https://logo.clearbit.com/www.canva.com"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Coolors.co"
 caption = "配色方案生成器"
 url = "https://coolors.co/"
 icon = "https://logo.clearbit.com/coolors.co"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "WebGradients"
 caption = "網頁漸層配色"
 url = "https://webgradients.com/"
 icon = "https://logo.clearbit.com/webgradients.com"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "CoolHue 2.0"
 caption = "漸層配色"
 url = "https://webkul.github.io/coolhue/"
 icon = "https://logo.clearbit.com/webkul.github.io"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "SVG Wave"
 caption = "漸層波浪生成器"
 url = "https://svgwave.in/"
 icon = "https://logo.clearbit.com/svgwave.in"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Gradient Backgrounds"
 caption = "CSS漸層背景"
 url = "https://cssgradient.io/gradient-backgrounds/"
 icon = "https://logo.clearbit.com/cssgradient.io"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "日本傳統色系"
 caption = "日式配色"
 url = "https://nipponcolors.com/#usubeni"
 icon = "https://logo.clearbit.com/nipponcolors.com"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "中國傳統色系"
 caption = "中式配色"
 url = "http://zhongguose.com/"
 icon = "https://zhongguose.com/favicon.ico"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Realtime Colors"
 caption = "風格預覽"
 url = "https://www.realtimecolors.com/"
 icon = "https://www.realtimecolors.com/favicon.png"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Cheeky Palettes"
 caption = "風格預覽（網頁）"
 url = "https://www.cheekypalettes.com/"
 icon = "https://www.cheekypalettes.com/favicon.png/"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Color Contrast Checker"
 caption = "顏色對比度確認"
 url = "https://coolors.co/contrast-checker/112a46-acc8e5"
 icon = "https://s3-alpha.figma.com/profile/83ff6b2d-5010-424f-ab38-803898f0d171"
 
-[["Design"."色彩相關"]]
+[["Design"."Colors 色彩相關"]]
 title = "Color.review"
 caption = "顏色對比度確認（含色域覆蓋圈）"
 url = "https://color.review/"
