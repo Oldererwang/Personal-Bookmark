@@ -171,7 +171,7 @@ for main_index, bookmark_category in enumerate(bookmark_datas):
         """
         for bookmark_item in bookmark_datas[bookmark_category][subtitle]:
             bookmark_html_output += f"""
-            <a href="{bookmark_item['url']}" target="_blank" class="block">
+            <a href="{bookmark_item['url']}" class="block">
                 <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-blue-500 hover:text-white h-full">
                     <div class="card-body p-6 pt-5">
                         <img src="{bookmark_item['icon']}" width="36px"
