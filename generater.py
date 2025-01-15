@@ -46,7 +46,7 @@ navbar_html = """
 search_html = """
 <div class="body grid content-center justify-items-center">
     <div class="p-5 w-full max-w-lg">
-        <div class="card bg-white dark:bg-slate-800  shadow-lg">
+        <div class="card bg-white dark:bg-zinc-900 shadow-lg">
             <div class="card-body">
                 <h2 class="card-title mb-3">Search</h2>
                 <select class="select select-bordered w-full mb-4" id="select_search_engine">
@@ -56,7 +56,7 @@ search_html = """
                 </select>
                 <textarea class="textarea textarea-bordered w-full mb-4" placeholder="Search text."
                     id="textinput_search_text"></textarea>
-                <button class="btn btn-primary w-full" onclick="activate_search()">Search</button>
+                <button class="btn bg-blue-500 hover:bg-blue-800 text-white w-full" onclick="activate_search()">Search</button>
             </div>
         </div>
     </div>
@@ -189,7 +189,7 @@ full_html = f"""
     <style>{page_css}</style>
 </head>
 
-<body class="bg-slate-100 dark:bg-gray-800">
+<body class="bg-slate-100 dark:bg-zinc-800">
     {navbar_html}
 
     <div class="body">
