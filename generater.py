@@ -6,151 +6,57 @@ head_html = """
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pinmark・Liang 的常用書籤</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="icon" href="favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
 <link rel="apple-touch-startup-image" href="favicon.png">
 <meta name="apple-mobile-web-app-title" content="Pinmark">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 """
 page_css = """
-    .nav-pills {
-        --bs-nav-pills-border-radius: var(--bs-border-radius);
-        --bs-nav-pills-link-active-color: #fff;
-        --bs-nav-pills-link-active-bg: #7D6D69;
-    }
+#bookmark-page {
+    display: block;
+}
 
-    :root {
-        --bs-link-color: #7D6D69;
-        --bs-link-hover-color: #302624;
-    }
-
-    .btn-primary {
-        --bs-btn-bg: #7D6D69;
-        --bs-btn-border-color: #7D6D69;
-        --bs-btn-hover-bg: #302624;
-        --bs-btn-hover-border-color: #302624;
-    }
-
-    .form-control:focus {
-        border-color: #7D6D6900;
-        box-shadow: 0 0 0 .25rem rgba(38, 92, 16, 0);
-    }
-
-    .hover-link {
-        scale: 1;
-    }
-
-    .hover-link:hover {
-        transform: scale(1.02);
-        transition-duration: 0.5s;
-        box-shadow: 2px 2px 8px rgba(56, 55, 55, 0.137);
-    }
-
-    .link_div {
-        padding-top: 12px;
-    }
-
-    .link_title {
-        font-size: 1rem;
-    }
-
-    .link_caption {
-        padding-top: 4px;
-        margin: 0px;
-        font-size: 0.8rem;
-        opacity: 0.7;
-    }
-
-    #googleSearchInput, #feloSearchInput, #chatgptSearchInput {
-        border: 0px !important;
-        border-radius: 16px !important;
-    }
-    .search_content {
-        border-radius: 28px !important;
-    }
+#search-page {
+    display: none;
+}
+.body {
+    min-height: calc(100vh - 72px) !important;
+}
 """
 
 
 navbar_html = """
-<nav class="navbar fixed-top bg-body-tertiary shadow" id="topNav">
-    <div class="container-fluid px-4">
-        <a class="navbar-brand" href="#topNav">
-            <img src="./assets/imgs/header_img.png" height="52px;">
+<div class="navbar bg-base-100 drop-shadow">
+    <div class="flex-1">
+        <a class="btn btn-ghost text-xl">
+            <image src="/favicon.png" class="h-8" />
+            Bookmark Webs
         </a>
-        <div class="d-flex">
-            <a href="http://lianglu.uk" target="_blank" rel="noopener noreferrer" class="btn btn-light">
-                作者網站
-            </a>
-        </div>
     </div>
-</nav>
+    <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+            <li><a href="https://lianglu.uk" target="_blank">作者網站</a></li>
+        </ul>
+    </div>
+</div>
 """
 
 search_html = """
-<div class="container-fluid" style="margin-top: 120px;">
-    <div class="row px-4">
-        <div class="col-12">
-            <ul class="nav nav-underline" id="search" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="google-tab" data-bs-toggle="tab"
-                        data-bs-target="#google-tab-pane" type="button" role="tab" aria-controls="google-tab-pane"
-                        aria-selected="true">Google</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="chatgpt-tab" data-bs-toggle="tab"
-                        data-bs-target="#chatgpt-tab-pane" type="button" role="tab" aria-controls="chatgpt-tab-pane"
-                        aria-selected="false">ChatGPT</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="felo-tab" data-bs-toggle="tab"
-                        data-bs-target="#felo-tab-pane" type="button" role="tab" aria-controls="felo-tab-pane"
-                        aria-selected="false">Felo (AI Search)</button>
-                </li>
-            </ul>
-            <div class="tab-content py-3" id="searchContent">
-                <div class="tab-pane fade show active" id="google-tab-pane" role="tabpanel" aria-labelledby="google-tab"
-                    tabindex="0">
-                    <div class="row">
-                        <div class="col-12 p-2 border border-1 bg-body search_content overflow-hidden">
-                            <form id="searchFormG" class="d-flex" onsubmit="handleSearch(event,'google')">
-                                <input type="text" class="bg-body form-control me-2" placeholder="Google 快速搜尋"
-                                    id="googleSearchInput" required>
-                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
-                                    Search
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="chatgpt-tab-pane" role="tabpanel" aria-labelledby="chatgpt-tab"
-                    tabindex="0">
-                    <div class="row">
-                        <div class="col-12 p-2 border border-1 bg-body search_content overflow-hidden">
-                            <form id="searchFormF" class="d-flex" onsubmit="handleSearch(event,'chatgpt')">
-                                <textarea class="bg-body form-control me-2" placeholder="ChatGPT"
-                                    id="chatgptSearchInput" required></textarea>
-                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
-                                    Search
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="felo-tab-pane" role="tabpanel" aria-labelledby="felo-tab"
-                    tabindex="0">
-                    <div class="row">
-                        <div class="col-12 p-2 border border-1 bg-body search_content overflow-hidden">
-                            <form id="searchFormF" class="d-flex" onsubmit="handleSearch(event,'felo')">
-                                <input type="text" class="bg-body form-control me-2" placeholder="Felo AI 快速搜尋"
-                                    id="feloSearchInput" required>
-                                <button class="btn btn-primary rounded-pill text-nowrap" type="submit">
-                                    Search
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+<div class="body grid content-center justify-items-center">
+    <div class="p-5 w-full max-w-lg">
+        <div class="card bg-white shadow-lg">
+            <div class="card-body">
+                <h2 class="card-title">Search</h2>
+                <select class="select select-bordered w-full mb-5" id="select_search_engine">
+                    <option selected>Google</option>
+                    <option>ChatGPT</option>
+                    <option>Felo.ai</option>
+                </select>
+                <textarea class="textarea textarea-bordered w-full mb-5" placeholder="Search text."
+                    id="textinput_search_text"></textarea>
+                <button class="btn btn-primary w-full" onclick="activate_search()">Search</button>
             </div>
         </div>
     </div>
@@ -158,26 +64,47 @@ search_html = """
 """
 
 search_js = """
-function handleSearch(event, engine) {
-    id_block = "";
-    url = "";
-    if (engine == "google") {
-        id_block = "googleSearchInput";
-        url = "https://www.google.com/search";
-    } else if (engine == "chatgpt") {
-        id_block = "chatgptSearchInput";
-        url = "https://chatgpt.com";
-    } else if (engine == "felo") {
-        id_block = "feloSearchInput";
-        url = "https://felo.ai/zh-Hant/search";
-    }
-    event.preventDefault();
-    const searchText = document.getElementById(id_block).value;
-    if (searchText.trim() !== '') {
-        const googleSearchUrl = `${url}?q=${encodeURIComponent(searchText)}`;
-        window.open(googleSearchUrl, '_blank'); // 使用 window.open 來開啟新分頁
+<!--Search Function activate-->
+const select_search_engine = document.getElementById('select_search_engine');
+const textinput_search_text = document.getElementById('textinput_search_text');
+function activate_search() {
+    const search_engine = select_search_engine.value;
+    const search_text = textinput_search_text.value;
+    if (search_engine == 'Google') {
+        window.open(`https://www.google.com/search?q=${search_text}`);
+    } else if (search_engine == 'ChatGPT') {
+        window.open(`https://chatgpt.com/search?q=${search_text}`);
+    } else if (search_engine == 'Felo.ai') {
+        window.open(`https://felo.ai/search?q=${search_text}`);
     }
 }
+"""
+
+switch_js = """
+const bookmarkTab = document.getElementById('bookmark-tab');
+const searchTab = document.getElementById('search-tab');
+const bookmarkPage = document.getElementById('bookmark-page');
+const searchPage = document.getElementById('search-page');
+
+bookmarkTab.addEventListener('click', () => {
+    // 切换到书签页面
+    bookmarkPage.style.display = 'block';
+    searchPage.style.display = 'none';
+
+    // 更新按钮状态
+    bookmarkTab.classList.add('active');
+    searchTab.classList.remove('active');
+});
+
+searchTab.addEventListener('click', () => {
+    // 切换到搜索页面 
+    bookmarkPage.style.display = 'none';
+    searchPage.style.display = 'block';
+
+    // 更新按钮状态
+    searchTab.classList.add('active');
+    bookmarkTab.classList.remove('active');
+});
 """
 
 totop_html = """
@@ -217,98 +144,6 @@ document.getElementById('toTop').addEventListener('click', function () {
 """
 
 
-def get_category_tab_btn_html(category_datas) -> str:
-    from html import escape
-
-    out = []
-    is_first = True
-
-    for category_name, category_data in category_datas.items():
-        # Replace spaces with hyphens and escape the category name for HTML
-        category_id = escape(category_name).replace(" ", "-")
-
-        button = f"""
-        <button class="nav-link rounded-pill mb-2 {'active' if is_first else ''}" 
-                id="tab-{category_id}-tab" 
-                data-bs-toggle="pill"
-                data-bs-target="#tab-{category_id}" 
-                type="button" 
-                role="tab" 
-                aria-controls="tab-{category_id}"
-                aria-selected="{str(is_first).lower()}">
-            {escape(category_name)}
-        </button>"""
-
-        out.append(button)
-        is_first = False
-
-    return "".join(out)
-
-
-def get_category_tab_html(category_datas) -> str:
-    from html import escape
-
-    out = []
-    is_first = True
-
-    for category_name, category_data in category_datas.items():
-        # Replace spaces with hyphens and escape the category name for HTML
-        category_id = escape(category_name).replace(" ", "-")
-
-        subcategories_html = "".join(
-            get_subcategory_html(subcat_name, subcat_data)
-            for subcat_name, subcat_data in category_data.items()
-        )
-
-        tab_content = f"""
-        <div class="tab-pane fade{' show active' if is_first else ''}" 
-            id="tab-{category_id}" 
-            role="tabpanel"
-            aria-labelledby="tab-{category_id}-tab" 
-            tabindex="0">
-            <div class="container-fluid">
-                {subcategories_html}
-            </div>
-        </div>"""
-
-        out.append(tab_content)
-        is_first = False
-
-    return "".join(out)
-
-
-def get_subcategory_html(subcategory_name: str, items: list) -> str:
-    return f"""<div class="row g-3 pb-5">
-        <div class="col-12">
-            <h2 class="pb-0">{subcategory_name}</h2>
-        </div>
-        {''.join(get_item_html(item) for item in items)}
-    </div>"""
-
-
-def get_item_html(item: dict) -> str:
-    return f"""
-    <div class="col-12 col-md-6 col-lg-3 col-xl-2">
-        <a href="{item.get("url")}" class="text-reset text-decoration-none">
-            <div class="card hover-link h-100">
-                <div class="card-body">
-                    <div class="col-auto">
-                        <img src="{item.get("icon")}" width="32px" class="rounded">
-                    </div>
-                    <div class="col">
-                        <div class="link_div">
-                            <strong class="link_title">{item.get("title")}</strong>
-                            <p class="link_caption">{item.get("caption")}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-    """
-
-
 ################################################################################################
 def read_toml(file_path):
     try:
@@ -322,6 +157,34 @@ def read_toml(file_path):
 file_path = "bookmarks.toml"
 bookmark_datas = read_toml(file_path)
 
+# print(bookmark_datas)
+bookmark_html_output = ""
+for main_index, bookmark_category in enumerate(bookmark_datas):
+    bookmark_html_output += f"""
+    <input type="radio" name="bookmatks_tabs" role="tab" class="tab text-nowrap text-2xl pb-10" aria-label="{bookmark_category}" {"checked='checked'" if main_index == 0 else ''}/>
+    <div role="panel_bookmatks_tabs" class="tab-content py-4">
+    """
+    for subtitle_index, subtitle in enumerate(bookmark_datas[bookmark_category]):
+        bookmark_html_output += f"""
+        <h3 class="text-3xl font-bold my-3">{subtitle}</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 gap-4 mb-12">
+        """
+        for bookmark_item in bookmark_datas[bookmark_category][subtitle]:
+            bookmark_html_output += f"""
+            <a href="{bookmark_item['url']}" target="_blank" class="block">
+                <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-blue-500 hover:text-white h-full">
+                    <div class="card-body p-6 pt-5">
+                        <img src="{bookmark_item['icon']}" width="36px"
+                            class="bg-white rounded p-1">
+                        <p class="card-title">{bookmark_item['title']}</p>
+                        <p>{bookmark_item['caption']}</p>
+                    </div>
+                </div>
+            </a>
+            """
+        bookmark_html_output += "</div>"
+    bookmark_html_output += "</div>"
+
 ################################################################################################
 full_html = f"""
 <!doctype html>
@@ -332,29 +195,52 @@ full_html = f"""
     <style>{page_css}</style>
 </head>
 
-<body style="background-image: url('https://free-paper-texture.com/p/p0435/p0435_m.jpg');">
+<body class="bg-slate-100 dark:bg-gray-800">
     {navbar_html}
 
-    {search_html}
-
-    <div class="container-fluid py-4 px-lg-4">
-        <div class="d-flex align-items-start">
-            <div class="nav flex-column nav-pills me-3">
-                {get_category_tab_btn_html(bookmark_datas)}
-            </div>
-            <div class="tab-content px-4 w-100" id="pills-tabContent">
-                {get_category_tab_html(bookmark_datas)}
+    <div class="body">
+        <div id="bookmark-page">
+            <div class="container-fuild body mx-auto pt-4 pb-8 lg:px-12 sm:px-2  mb-1">
+                
+                <div role="tablist" class="tabs tabs-bordered mt-4">
+                    {bookmark_html_output}
+                </div>
             </div>
         </div>
+        <div id="search-page">
+            {search_html}
+        </div>
+    </div>
+    <div class="btm-nav">
+        <button id="bookmark-tab" class="active">
+            <svg class="h-5 w-5" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M10 44C8.89543 44 8 43.1046 8 42V6C8 4.89543 8.89543 4 10 4H38C39.1046 4 40 4.89543 40 6V42C40 43.1046 39.1046 44 38 44H10Z"
+                    fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 22V4H33V22L27 15.7273L21 22Z" fill="none"
+                    stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M10 4H38" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+        <button id="search-tab">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M21 38C30.3888 38 38 30.3888 38 21C38 11.6112 30.3888 4 21 4C11.6112 4 4 11.6112 4 21C4 30.3888 11.6112 38 21 38Z"
+                    fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" />
+                <path d="M26.657 14.3431C25.2093 12.8954 23.2093 12 21.0001 12C18.791 12 16.791 12.8954 15.3433 14.3431"
+                    stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M33.2216 33.2217L41.7069 41.707" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
     </div>
 
     {totop_html}
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
     <script>
+        {switch_js}
+
         {search_js}
 
         {totop_js}
