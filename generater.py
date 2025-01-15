@@ -161,7 +161,7 @@ bookmark_datas = read_toml(file_path)
 bookmark_html_output = ""
 for main_index, bookmark_category in enumerate(bookmark_datas):
     bookmark_html_output += f"""
-    <input type="radio" name="bookmatks_tabs" role="tab" class="tab text-nowrap text-2xl pb-10" aria-label="{bookmark_category}" {"checked='checked'" if main_index == 0 else ''}/>
+    <input type="radio" name="bookmatks_tabs" role="tab" class="tab text-nowrap text-xl pb-8" aria-label="{bookmark_category}" {"checked='checked'" if main_index == 0 else ''}/>
     <div role="panel_bookmatks_tabs" class="tab-content py-4">
     """
     for subtitle_index, subtitle in enumerate(bookmark_datas[bookmark_category]):
@@ -200,8 +200,7 @@ full_html = f"""
 
     <div class="body">
         <div id="bookmark-page">
-            <div class="container-fuild body mx-auto pt-4 pb-8 lg:px-12 sm:px-2  mb-1">
-                
+            <div class="container-fuild body mx-auto pt-4 pb-8 px-4 sm:px-8 md-px-10 lg:px-12 mb-1">
                 <div role="tablist" class="tabs tabs-bordered mt-4">
                     {bookmark_html_output}
                 </div>
