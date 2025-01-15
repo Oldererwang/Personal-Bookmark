@@ -46,15 +46,15 @@ navbar_html = """
 search_html = """
 <div class="body grid content-center justify-items-center">
     <div class="p-5 w-full max-w-lg">
-        <div class="card bg-white shadow-lg">
+        <div class="card bg-white dark:bg-slate-800  shadow-lg">
             <div class="card-body">
-                <h2 class="card-title">Search</h2>
-                <select class="select select-bordered w-full mb-5" id="select_search_engine">
+                <h2 class="card-title mb-3">Search</h2>
+                <select class="select select-bordered w-full mb-4" id="select_search_engine">
                     <option selected>Google</option>
                     <option>ChatGPT</option>
                     <option>Felo.ai</option>
                 </select>
-                <textarea class="textarea textarea-bordered w-full mb-5" placeholder="Search text."
+                <textarea class="textarea textarea-bordered w-full mb-4" placeholder="Search text."
                     id="textinput_search_text"></textarea>
                 <button class="btn btn-primary w-full" onclick="activate_search()">Search</button>
             </div>
@@ -108,15 +108,9 @@ searchTab.addEventListener('click', () => {
 """
 
 totop_html = """
-<button id="toTop" class="position-fixed bottom-0 start-0 m-4 border-0 shadow-md"
-style="display: none; background-color: #30262400;">
-    <div style="width: 48px;height: 48px;"
-        class="btn btn-primary rounded-circle d-flex justify-content-center align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
-        </svg>
+<button id="toTop" class="fixed bottom-24 right-8 hidden border-0 drop-shadow-2xl">
+    <div class="size-16 btn btn-primary rounded-full overflow-hidden flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg"  class="w-8 h-8" fill="#FFFFFF"  viewBox="0 0 16 16"><path fill-rule="evenodd"  d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" /></svg>
     </div>
 </button>
 """
