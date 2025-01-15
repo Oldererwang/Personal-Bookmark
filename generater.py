@@ -168,8 +168,8 @@ for main_index, bookmark_category in enumerate(bookmark_datas):
             <a href="{bookmark_item['url']}" class="block">
                 <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-blue-500 hover:text-white h-full">
                     <div class="card-body p-6 pt-5">
-                        <img src="{bookmark_item['icon']}" width="36px"
-                            class="bg-white rounded p-1">
+                        <div width="36px" height="36px" style="background-image: url('{bookmark_item['icon']}')"
+                            class="h-8 w-8 bg-contain bg-no-repeat bg-center rounded border-2 border-white bg-white"></div>
                         <p class="card-title">{bookmark_item['title']}</p>
                         <p>{bookmark_item['caption']}</p>
                     </div>
