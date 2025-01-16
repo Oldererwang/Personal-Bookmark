@@ -24,8 +24,15 @@ head_html = """
         }
     }
 </script>
+
 """
 page_css = """
+@font-face {
+    font-family: SweiGothicCJKtc-Regular;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/swei-gothic@2.129/WebFont/CJK%20TC/SweiGothicCJKtc-Regular.woff2) format("woff2")
+    , url(https://cdn.jsdelivr.net/gh/max32002/swei-gothic@2.129/WebFont/CJK%20TC/SweiGothicCJKtc-Regular.woff) format("woff");
+}
+
 #bookmark-page {
     display: block;
 }
@@ -182,8 +189,8 @@ for main_index, bookmark_category in enumerate(bookmark_datas):
                     <div class="card-body p-6 pt-5">
                         <div width="36px" height="36px" style="background-image: url('{bookmark_item['icon']}')"
                             class="h-8 w-8 bg-contain bg-no-repeat bg-center rounded border-2 border-white bg-white"></div>
-                        <p class="card-title">{bookmark_item['title']}</p>
-                        <p>{bookmark_item['caption']}</p>
+                        <p class="card-title mt-2">{bookmark_item['title']}</p>
+                        {f"<p>{bookmark_item['caption']}</p>" if bookmark_item['caption'] else ''}
                     </div>
                 </div>
             </a>
@@ -201,7 +208,7 @@ full_html = f"""
     <style>{page_css}</style>
 </head>
 
-<body class="bg-slate-100 dark:bg-zinc-800">
+<body class="bg-slate-100 dark:bg-zinc-800" style="font-family: SweiGothicCJKtc-Regular, sans-serif;">
     {navbar_html}
 
     <div class="body">
