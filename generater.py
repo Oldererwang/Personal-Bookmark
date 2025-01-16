@@ -173,12 +173,12 @@ for main_index, bookmark_category in enumerate(bookmark_datas):
     for subtitle_index, subtitle in enumerate(bookmark_datas[bookmark_category]):
         bookmark_html_output += f"""
         <h3 class="text-3xl font-bold my-3">{subtitle}</h3>
-        <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 gap-4 mb-12">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4 mb-12">
         """
         for bookmark_item in bookmark_datas[bookmark_category][subtitle]:
             bookmark_html_output += f"""
             <a href="{bookmark_item['url']}" class="block">
-                <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-primary hover:text-white h-full">
+                <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-primaryhover hover:text-white h-full">
                     <div class="card-body p-6 pt-5">
                         <div width="36px" height="36px" style="background-image: url('{bookmark_item['icon']}')"
                             class="h-8 w-8 bg-contain bg-no-repeat bg-center rounded border-2 border-white bg-white"></div>

@@ -162,8 +162,8 @@ icon = "https://fancyapps.com/favicon.ico"
 [["開發"."FrontEnd Docs"]]
 title = "mdn_"
 caption = "網頁技術文件"
-url = "https://開發r.mozilla.org/zh-TW/"
-icon = "https://開發r.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"
+url = "https://developer.mozilla.org/zh-TW/"
+icon = "https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"
 
 [["開發"."FrontEnd Docs"]]
 title = "tailwindcss"
@@ -304,7 +304,7 @@ icon = "https://fps.cdnpk.net/favicons/favicon-96x96.png"
 title = "ByteDance IconPark 插圖"
 caption = "向量彩風"
 url = "https://iconpark.oceanengine.com/illustrations"
-icon = "https://lf1-cdn2-tos.bytegoofy.com/by設計/iconparksite/logo.svg"
+icon = "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg"
 
 [["設計"."Illustration 插圖"]]
 title = "silhouetteAC"
@@ -315,8 +315,8 @@ icon = "https://static.photo-ac.com/static/ico/favicon.silhouette_ac.png"
 [["設計"."Illustration 插圖"]]
 title = "Blush"
 caption = "Illustration 插圖"
-url = "https://blush.設計/"
-icon = "https://blush.設計/favicon-32x32.png"
+url = "https://blush.design/"
+icon = "https://blush.design/favicon-32x32.png"
 
 [["設計"."Illustration 插圖"]]
 title = "かわいいフリ"
@@ -376,14 +376,14 @@ icon = "https://logo.clearbit.com/colorhunt.co"
 [["設計"."Colors 色彩相關"]]
 title = "LOLCOLORS"
 caption = "精選配色方案"
-url = "https://www.web設計rankings.com/resources/lolcolors/"
-icon = "https://logo.clearbit.com/www.web設計rankings.com"
+url = "https://www.webdesignrankings.com/resources/lolcolors/"
+icon = "https://logo.clearbit.com/www.webdesignrankings.com"
 
 [["設計"."Colors 色彩相關"]]
 title = "Ant 設計"
 caption = "設計系統配色"
-url = "https://ant.設計/docs/spec/colors-cn"
-icon = "https://logo.clearbit.com/ant.設計"
+url = "https://ant.design/docs/spec/colors-cn"
+icon = "https://logo.clearbit.com/ant.design"
 
 [["設計"."Colors 色彩相關"]]
 title = "Material 設計 Color"
@@ -424,8 +424,8 @@ icon = "https://logo.clearbit.com/www.palettable.io"
 [["設計"."Colors 色彩相關"]]
 title = "Eva Colors"
 caption = "AI 配色工具"
-url = "https://colors.eva.設計/"
-icon = "https://logo.clearbit.com/colors.eva.設計"
+url = "https://colors.eva.design/"
+icon = "https://logo.clearbit.com/colors.eva.design"
 
 [["設計"."Colors 色彩相關"]]
 title = "Canva 色卡工具"
@@ -580,25 +580,25 @@ icon = "https://m3.material.io/static/assets/m3-favicon.ico"
 [["設計"."UI 設計資源"]]
 title = "Apple 人机界面指南"
 caption = "Apple 設計系統"
-url = "https://開發r.apple.com/cn/設計/human-interface-guidelines/"
-icon = "https://開發r.apple.com/favicon.ico"
+url = "https://developer.apple.com/cn/design/human-interface-guidelines/"
+icon = "https://developer.apple.com/favicon.ico"
 
 [["設計"."UI 設計資源"]]
 title = "Microsoft Fluent 設計"
 caption = "微軟設計系統"
-url = "https://www.microsoft.com/設計/fluent/#/"
+url = "https://www.microsoft.com/design/fluent/#/"
 icon = "https://logo.clearbit.com/www.microsoft.com"
 
 [["設計"."UI 設計資源"]]
 title = "Ant 設計"
 caption = "蚂蚁集团設計系統"
-url = "https://ant.設計/"
+url = "https://ant.design/"
 icon = "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png"
 
 [["設計"."UI 設計資源"]]
 title = "更多 設計 System"
 caption = "UProkit - Curated UI Kits"
-url = "https://prokit.notion.site/設計-System-5ad286a7241c48fa960bf8fdd322a1b5"
+url = "https://prokit.notion.site/design-System-5ad286a7241c48fa960bf8fdd322a1b5"
 icon = "https://prokit.notion.site/images/favicon.ico"
 
 [["設計"."UI 設計資源"]]
@@ -610,7 +610,7 @@ icon = "https://uinotes.com/public/img/logo.svg"
 [["設計"."UI 設計資源"]]
 title = "App Motion"
 caption = "Mobile App 動畫參考"
-url = "https://appmotion.設計/"
+url = "https://appmotion.design/"
 icon = "https://framerusercontent.com/images/k0wxFckxvFRYtoPbMz1AyJ5xYs.png"
 
 [["設計"."UX 設計資源"]]
@@ -628,7 +628,7 @@ icon = "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b14c9
 [["設計"."UX 設計資源"]]
 title = "UX 四神湯開放平台"
 caption = "設計師的共享圖書館"
-url = "https://www.open設計.tw/"
+url = "https://www.opendesign.tw/"
 icon = "https://assets.softr-files.com/applications/c867ccee-775f-4cb7-97a7-f6585cbf1b15/assets/01064c9c-0792-4305-bec8-49128e3ab329.jpeg?rnd=1670677165990"
 
 
