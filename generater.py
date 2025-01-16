@@ -12,6 +12,18 @@ head_html = """
 <meta name="apple-mobile-web-app-title" content="Pinmark">
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#7D6D69',
+                    primaryhover: '#574844',
+                }
+            }
+        }
+    }
+</script>
 """
 page_css = """
 #bookmark-page {
@@ -56,7 +68,7 @@ search_html = """
                 </select>
                 <textarea class="textarea textarea-bordered w-full mb-4" placeholder="Search text."
                     id="textinput_search_text"></textarea>
-                <button class="btn bg-blue-500 hover:bg-blue-800 text-white w-full" onclick="activate_search()">Search</button>
+                <button class="btn bg-primary hover:bg-primaryhover rounded-full text-white w-full" onclick="activate_search()">Search</button>
             </div>
         </div>
     </div>
@@ -109,7 +121,7 @@ searchTab.addEventListener('click', () => {
 
 totop_html = """
 <button id="toTop" class="fixed bottom-24 right-8 hidden border-0 drop-shadow-2xl">
-    <div class="size-16 btn btn-primary rounded-full overflow-hidden flex items-center justify-center">
+    <div class="size-16 btn bg-primary hover:bg-primaryhover rounded-full overflow-hidden flex items-center justify-center">
     <svg xmlns="http://www.w3.org/2000/svg"  class="w-8 h-8" fill="#FFFFFF"  viewBox="0 0 16 16"><path fill-rule="evenodd"  d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" /></svg>
     </div>
 </button>
@@ -166,7 +178,7 @@ for main_index, bookmark_category in enumerate(bookmark_datas):
         for bookmark_item in bookmark_datas[bookmark_category][subtitle]:
             bookmark_html_output += f"""
             <a href="{bookmark_item['url']}" class="block">
-                <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-blue-500 hover:text-white h-full">
+                <div class="card bg-base-100 shadow-none hover:shadow-md hover:bg-primary hover:text-white h-full">
                     <div class="card-body p-6 pt-5">
                         <div width="36px" height="36px" style="background-image: url('{bookmark_item['icon']}')"
                             class="h-8 w-8 bg-contain bg-no-repeat bg-center rounded border-2 border-white bg-white"></div>
@@ -194,7 +206,7 @@ full_html = f"""
 
     <div class="body">
         <div id="bookmark-page">
-            <div class="container-fuild body mx-auto pt-4 pb-8 px-4 sm:px-8 md-px-10 lg:px-12 mb-1">
+            <div class="container-fuild body mx-auto pt-4 pb-20 px-4 sm:px-8 md-px-10 lg:px-12 mb-1">
                 <div role="tablist" class="tabs tabs-bordered mt-4">
                     {bookmark_html_output}
                 </div>
