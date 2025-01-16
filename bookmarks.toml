@@ -1,35 +1,35 @@
-["AI Tools"]
-[["AI Tools"."Chat"]]
+["AI 工具"]
+[["AI 工具"."Chat"]]
 title = "Claude"
 caption = "適合程式碼生成或長文生成"
 url = "https://claude.ai"
 icon = "https://claude.ai/favicon.ico"
 
-[["AI Tools"."Chat"]]
+[["AI 工具"."Chat"]]
 title = "ChatGPT"
 caption = "適合複雜性任務（發散想法）"
 url = "https://chatgpt.com/"
 icon = "https://chatgpt.com/favicon.ico"
 
-[["AI Tools"."Chat"]]
+[["AI 工具"."Chat"]]
 title = "Kimi.ai"
 caption = "長文＋搜尋的中文語言模型"
 url = "https://kimi.moonshot.cn"
 icon = "https://statics.moonshot.cn/kimi-chat/favicon.ico"
 
-[["AI Tools"."Search"]]
+[["AI 工具"."Search"]]
 title = "ChatGPT Search"
 caption = "基於 Bing 的 AI 搜索引擎"
 url = "https://chatgpt.com/"
 icon = "https://chatgpt.com/favicon.ico"
 
-[["AI Tools"."Search"]]
+[["AI 工具"."Search"]]
 title = "Felo"
 caption = "最適合中文的 AI 搜索引擎"
 url = "https://felo.ai/zh-Hant/search"
 icon = "https://felo.ai/favicon.ico"
 
-[["AI Tools"."Search"]]
+[["AI 工具"."Search"]]
 title = "Perplexity"
 caption = "有名的 AI 搜索引擎"
 url = "https://www.perplexity.ai"
@@ -37,135 +37,135 @@ icon = "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-m
 
 ##############################################
 
-["Develope"]
-[["Develope"."Tools"]]
+["開發"]
+[["開發"."Tools"]]
 title = "Claude"
 caption = "適合程式碼生成或長文生成"
 url = "https://claude.ai"
 icon = "https://claude.ai/favicon.ico"
 
-[["Develope"."Tools"]]
+[["開發"."Tools"]]
 title = "Github"
 caption = "Code Manage"
 url = "https://github.com/"
 icon = "https://github.com/favicon.ico"
 
-[["Develope"."Tools"]]
+[["開發"."Tools"]]
 title = "Linear"
 caption = "Issue 管理工具"
 url = "https://linear.app/"
 icon = "https://logo.clearbit.com/linear.app"
 
-[["Develope"."Tools"]]
+[["開發"."Tools"]]
 title = "Draw.io"
 caption = "開源易於使用的圖表編輯器"
 url = "https://app.diagrams.net/"
 icon = "https://app.diagrams.net/favicon.ico"
 
 
-[["Develope"."IDEs"]]
+[["開發"."IDEs"]]
 title = "Deepnote"
 caption = "線上資料分析平台"
 url = "https://deepnote.com/"
 icon = "https://logo.clearbit.com/deepnote.com"
 
-[["Develope"."IDEs"]]
+[["開發"."IDEs"]]
 title = "Python 编译器"
 caption = "Python 線上編譯器"
 url = "https://www.programiz.com/python-programming/online-compiler/"
 icon = "https://logo.clearbit.com/www.programiz.com"
 
-[["Develope"."IDEs"]]
+[["開發"."IDEs"]]
 title = "Codepen"
 caption = "線上程式碼編輯器"
 url = "https://codepen.io/"
 icon = "https://logo.clearbit.com/codepen.io"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "Cloudflare 儀表板"
 caption = "網站服務管理平台"
 url = "https://dash.cloudflare.com/"
 icon = "https://dash.cloudflare.com/favicon.ico"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "火山引擎"
 caption = "火山引擎服務管理平台"
 url = "https://console.volcengine.com/auth/login?redirectURI=/speech/service/8?AppID%3D2041978174"
 icon = "https://res.volccdn.com/obj/volc-console-fe/images/favicon.52bcaa41.png"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "Microsoft Azure"
 caption = "Azure 服務管理平台"
 url = "https://portal.azure.com/#home"
 icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "Openai Playground"
 caption = "Openai 模型測試平台"
 url = "https://platform.openai.com/playground/chat?models=gpt-4o"
 icon = "https://chatgpt.com/favicon.ico"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "Dify"
 caption = "AI Chatbot 開發服務"
 url = "https://cloud.dify.ai/apps"
 icon = "https://avatars.githubusercontent.com/u/127165244?v=4"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "Google Search Console"
 caption = "Google 網站索引管理平台"
 url = "https://search.google.com/u/1/search-console"
 icon = "https://www.gstatic.com/search-console/scfe/search_console-128.png"
 
-[["Develope"."線上服務"]]
+[["開發"."線上服務"]]
 title = "n8n 儀表板"
 caption = "n8n 工作流管理平台"
 url = "https://n8n.lianglu.uk/"
 icon = "https://n8n.io/favicon.ico"
 
-[["Develope"."CSS Framework"]]
+[["開發"."CSS Framework"]]
 title = "Bootstrap"
 caption = "主流 CSS 框架"
 url = "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
 icon = "https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png"
 
-[["Develope"."CSS Framework"]]
+[["開發"."CSS Framework"]]
 title = "Tocas UI"
 caption = "臺灣社群製作的 CSS 框架"
 url = "https://tocas-ui.com/5.0/zh-tw/getting-started.html"
 icon = "https://tocas-ui.com/5.0/zh-tw/assets/images/favicons/favicon-32x32.png"
 
-[["Develope"."CSS Framework"]]
+[["開發"."CSS Framework"]]
 title = "Animate.css"
 caption = "CSS 動畫庫"
 url = "https://animate.style/"
 icon = "https://animate.style/img/favicon.ico"
 
-[["Develope"."CSS Framework"]]
+[["開發"."CSS Framework"]]
 title = "shadcn/ui"
 caption = "現代化的 UI 組件庫(NextJS)"
 url = "https://ui.shadcn.com/"
 icon = "https://ui.shadcn.com/favicon.ico"
 
-[["Develope"."CSS Framework"]]
+[["開發"."CSS Framework"]]
 title = "Swiper JS"
 caption = "觸控滑動插件(燈箱)"
 url = "https://swiperjs.com/demos"
 icon = "https://swiperjs.com/images/favicon.png"
 
-[["Develope"."CSS Framework"]]
+[["開發"."CSS Framework"]]
 title = "Fancyapps"
 caption = "JavaScript 燈箱插件"
 url = "https://fancyapps.com/"
 icon = "https://fancyapps.com/favicon.ico"
 
-[["Develope"."FrontEnd Docs"]]
+[["開發"."FrontEnd Docs"]]
 title = "mdn_"
 caption = "網頁技術文件"
-url = "https://developer.mozilla.org/zh-TW/"
-icon = "https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"
+url = "https://開發r.mozilla.org/zh-TW/"
+icon = "https://開發r.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"
 
-[["Develope"."FrontEnd Docs"]]
+[["開發"."FrontEnd Docs"]]
 title = "tailwindcss"
 caption = "CSS 框架文件"
 url = "https://tailwindcss.com/"
@@ -173,480 +173,480 @@ icon = "https://tailwindcss.com/favicons/favicon.ico?v=3"
 
 ##############################################
 
-["Design"]
-[["Design"."Tools"]]
+["設計"]
+[["設計"."Tools"]]
 title = "Figma"
 caption = "UI 設計工具"
 url = "https://www.figma.com/"
 icon = "https://static.figma.com/app/icon/1/favicon.ico"
 
-[["Design"."Tools"]]
+[["設計"."Tools"]]
 title = "Framer"
 caption = "UI 與網頁設計工具"
 url = "https://www.framer.com/"
 icon = "https://framerusercontent.com/images/Io89FonxEaWg4nxvQQllVLwPUUI.png"
 
-[["Design"."Tools"]]
+[["設計"."Tools"]]
 title = "Canva"
 caption = "簡報設計工具"
 url = "https://www.canva.com/zh_tw/"
 icon = "https://www.canva.com/favicon.ico"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "IconPark"
 caption = "線條、雙色"
 url = "https://iconpark.bytedance.com/official"
 icon = "https://logo.clearbit.com/iconpark.bytedance.com"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "Bootstrap Icons"
 caption = "線條、填色"
 url = "https://icons.getbootstrap.com/"
 icon = "https://logo.clearbit.com/icons.getbootstrap.com"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "iconmonstr"
 caption = "線條、黑白填色"
 url = "https://iconmonstr.com/"
 icon = "https://logo.clearbit.com/iconmonstr.com"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "Ikonate"
 caption = "線條"
 url = "https://ikonate.com/"
 icon = "https://ikonate.com/favicon.png"
 
-[["Design"."Icons 圖標"]]
-title = "Material Design Icons"
+[["設計"."Icons 圖標"]]
+title = "Material 設計 Icons"
 caption = "線條"
 url = "https://material.io/resources/icons/?style=baseline"
 icon = "https://logo.clearbit.com/material.io"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "Flaticons"
 caption = "Mix 圖標搜尋引擎"
 url = "https://www.flaticon.com/"
 icon = "https://logo.clearbit.com/www.flaticon.com"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "Iconstore"
 caption = "Mix 圖標搜尋引擎"
 url = "https://iconstore.co/icons"
 icon = "https://logo.clearbit.com/iconstore.co"
 
-[["Design"."Icons 圖標"]]
+[["設計"."Icons 圖標"]]
 title = "Free 3D Icon"
 caption = "3D Icon"
 url = "https://free3dicon.com/"
 icon = "https://storage.needpix.com/rsynced_images/earth-1681722_1280.png"
 
-[["Design"."Pictures 圖片"]]
+[["設計"."Pictures 圖片"]]
 title = "Unsplash"
 caption = ""
 url = "https://unsplash.com/"
 icon = "https://logo.clearbit.com/unsplash.com"
 
-[["Design"."Pictures 圖片"]]
+[["設計"."Pictures 圖片"]]
 title = "SplitShire"
 caption = ""
 url = "https://www.splitshire.com/"
 icon = "https://logo.clearbit.com/www.splitshire.com"
 
-[["Design"."Pictures 圖片"]]
+[["設計"."Pictures 圖片"]]
 title = "Pexels"
 caption = ""
 url = "https://www.pexels.com/zh-tw/"
 icon = "https://logo.clearbit.com/www.pexels.com"
 
-[["Design"."Pictures 圖片"]]
+[["設計"."Pictures 圖片"]]
 title = "ShotStash"
 caption = ""
 url = "https://shotstash.com/media-category/mobile-wallpapers/"
 icon = "https://www.google.com/s2/favicons?domain=shotstash.com&sz=128"
 
-[["Design"."Pictures 圖片"]]
+[["設計"."Pictures 圖片"]]
 title = "Pixabay"
 caption = ""
 url = "https://pixabay.com/"
 icon = "https://www.google.com/s2/favicons?domain=pixabay.com&sz=128"
 
-[["Design"."Pictures 圖片"]]
+[["設計"."Pictures 圖片"]]
 title = "picjumbo"
 caption = ""
 url = "https://picjumbo.com/"
 icon = "https://picjumbo.com/apple-touch-icon.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "unDraw"
 caption = "向量彩風"
 url = "https://undraw.co/illustrations"
 icon = "https://undraw.co/favicon.ico"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "shigureni"
 caption = "日式線條"
 url = "https://www.shigureni.com/all-illust"
 icon = "https://cdn.prod.website-files.com/603c5caeb14112727390646e/60598453dff8267e69ba3739_favicon.ico"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "Manypixel"
 caption = "向量彩風"
 url = "https://www.manypixels.co/gallery"
 icon = "https://cdn.prod.website-files.com/63a9cb71c629474d4ae334b9/63ac68e5916d9b5c5a24a999_Favicon%201.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "Freepik Stories"
 caption = "向量彩風"
 url = "https://www.freepik.com/stories"
 icon = "https://fps.cdnpk.net/favicons/favicon-96x96.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "ByteDance IconPark 插圖"
 caption = "向量彩風"
 url = "https://iconpark.oceanengine.com/illustrations"
-icon = "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg"
+icon = "https://lf1-cdn2-tos.bytegoofy.com/by設計/iconparksite/logo.svg"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "silhouetteAC"
 caption = "向量剪影"
 url = "https://silhouette-ac.com/tw/"
 icon = "https://static.photo-ac.com/static/ico/favicon.silhouette_ac.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "Blush"
 caption = "Illustration 插圖"
-url = "https://blush.design/"
-icon = "https://blush.design/favicon-32x32.png"
+url = "https://blush.設計/"
+icon = "https://blush.設計/favicon-32x32.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "かわいいフリ"
 caption = "日式插圖"
 url = "https://www.irasutoya.com/"
 icon = "https://www.google.com/s2/favicons?domain=www.irasutoya.com&sz=128"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "Open Peeps"
 caption = "黑白人物"
 url = "https://www.openpeeps.com/"
 icon = "https://cdn.prod.website-files.com/5e51b3b0337309d672efd94c/5e51ce4e2c16e82ce80d8b42_icon.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "Open Doodles"
 caption = "黑白人物・畫筆風"
 url = "https://www.opendoodles.com/"
 icon = "https://cdn.prod.website-files.com/5d5d5904f8a21bfe5ff69367/5da4e9a054896ed6d830e869_icon-32w.png"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "Storytale"
 caption = "Illustration 插圖"
 url = "https://storytale.io/"
 icon = "https://logo.clearbit.com/storytale.io"
 
-[["Design"."Illustration 插圖"]]
+[["設計"."Illustration 插圖"]]
 title = "IsoFlat"
 caption = "下載免費等角投影向量和圖形資源"
 url = "https://www.figma.com/community/file/1005992601634660550/free-isometric-abstract-illustration"
 icon = "https://static.figma.com/uploads/1a667ef53b7c4837049399d0593ffca39e0bec9e"
 
-[["Design"."Background 背景"]]
+[["設計"."Background 背景"]]
 title = "Paper-co"
 caption = "紙質背景"
 url = "https://free-paper-texture.com/"
 icon = "https://free-paper-texture.com/06_paper/wp-content/themes/paper/images/logo.ico"
 
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "COLOURLOVERS"
 caption = "色彩配色靈感"
 url = "https://www.colourlovers.com/palettes"
 icon = "https://logo.clearbit.com/www.colourlovers.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Dopely Colors"
 caption = "色彩配色靈感"
 url = "https://colors.dopely.top/palettes"
 icon = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgAXmLvQIUvT-41WoPa_z77a5CLViW9bVkiw&s"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Color Hunt"
 caption = "配色方案"
 url = "https://colorhunt.co/"
 icon = "https://logo.clearbit.com/colorhunt.co"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "LOLCOLORS"
 caption = "精選配色方案"
-url = "https://www.webdesignrankings.com/resources/lolcolors/"
-icon = "https://logo.clearbit.com/www.webdesignrankings.com"
+url = "https://www.web設計rankings.com/resources/lolcolors/"
+icon = "https://logo.clearbit.com/www.web設計rankings.com"
 
-[["Design"."Colors 色彩相關"]]
-title = "Ant Design"
+[["設計"."Colors 色彩相關"]]
+title = "Ant 設計"
 caption = "設計系統配色"
-url = "https://ant.design/docs/spec/colors-cn"
-icon = "https://logo.clearbit.com/ant.design"
+url = "https://ant.設計/docs/spec/colors-cn"
+icon = "https://logo.clearbit.com/ant.設計"
 
-[["Design"."Colors 色彩相關"]]
-title = "Material Design Color"
+[["設計"."Colors 色彩相關"]]
+title = "Material 設計 Color"
 caption = "Material配色"
 url = "https://www.materialpalette.com/"
 icon = "https://logo.clearbit.com/www.materialpalette.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Flat UI Colors 2"
 caption = "扁平化配色"
 url = "https://flatuicolors.com/"
 icon = "https://flatuicolors.com/static/favicon.ico"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "flatuicolorpicker"
 caption = "扁平化配色選擇器"
 url = "http://www.flatuicolorpicker.com/"
 icon = "https://logo.clearbit.com/www.flatuicolorpicker.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Colordot"
 caption = "色彩選擇器"
 url = "https://color.hailpixel.com/"
 icon = "https://logo.clearbit.com/color.hailpixel.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Scale"
 caption = "色階產生器"
 url = "https://hihayk.github.io/scale/"
 icon = "https://hihayk.github.io/scale/favicon.ico"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Palettable"
 caption = "互動式配色生成"
 url = "https://www.palettable.io/D09661"
 icon = "https://logo.clearbit.com/www.palettable.io"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Eva Colors"
 caption = "AI 配色工具"
-url = "https://colors.eva.design/"
-icon = "https://logo.clearbit.com/colors.eva.design"
+url = "https://colors.eva.設計/"
+icon = "https://logo.clearbit.com/colors.eva.設計"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Canva 色卡工具"
 caption = "圖片配色工具"
 url = "https://www.canva.com/colors/color-palette-generator/"
 icon = "https://logo.clearbit.com/www.canva.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Coolors.co"
 caption = "配色方案生成器"
 url = "https://coolors.co/"
 icon = "https://logo.clearbit.com/coolors.co"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "WebGradients"
 caption = "網頁漸層配色"
 url = "https://webgradients.com/"
 icon = "https://logo.clearbit.com/webgradients.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "CoolHue 2.0"
 caption = "漸層配色"
 url = "https://webkul.github.io/coolhue/"
 icon = "https://logo.clearbit.com/webkul.github.io"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "SVG Wave"
 caption = "漸層波浪生成器"
 url = "https://svgwave.in/"
 icon = "https://logo.clearbit.com/svgwave.in"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Gradient Backgrounds"
 caption = "CSS漸層背景"
 url = "https://cssgradient.io/gradient-backgrounds/"
 icon = "https://logo.clearbit.com/cssgradient.io"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "日本傳統色系"
 caption = "日式配色"
 url = "https://nipponcolors.com/#usubeni"
 icon = "https://logo.clearbit.com/nipponcolors.com"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "中國傳統色系"
 caption = "中式配色"
 url = "http://zhongguose.com/"
 icon = "https://zhongguose.com/favicon.ico"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Realtime Colors"
 caption = "風格預覽"
 url = "https://www.realtimecolors.com/"
 icon = "https://www.realtimecolors.com/favicon.png"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Cheeky Palettes"
 caption = "風格預覽（網頁）"
 url = "https://www.cheekypalettes.com/"
 icon = "https://www.cheekypalettes.com/favicon.png/"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Color Contrast Checker"
 caption = "顏色對比度確認"
 url = "https://coolors.co/contrast-checker/112a46-acc8e5"
 icon = "https://s3-alpha.figma.com/profile/83ff6b2d-5010-424f-ab38-803898f0d171"
 
-[["Design"."Colors 色彩相關"]]
+[["設計"."Colors 色彩相關"]]
 title = "Color.review"
 caption = "顏色對比度確認（含色域覆蓋圈）"
 url = "https://color.review/"
 icon = "https://color.review/favicon-32x32.png"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "squoosh"
 caption = "圖片壓縮工具"
 url = "https://squoosh.app/"
 icon = "https://logo.clearbit.com/squoosh.app"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "Tinyjpg"
 caption = "圖片壓縮工具"
 url = "https://tinyjpg.com/"
 icon = "https://logo.clearbit.com/tinyjpg.com"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "I LOVE IMG"
 caption = "圖片壓縮工具"
 url = "https://www.iloveimg.com/zh-tw/compress-image/compress-jpg"
 icon = "https://logo.clearbit.com/www.iloveimg.com"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "compressor.io"
 caption = "圖片壓縮工具"
 url = "https://compressor.io/"
 icon = "https://logo.clearbit.com/compressor.io"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "remove.bg"
 caption = "去背工具"
 url = "https://www.remove.bg/zh"
 icon = "https://logo.clearbit.com/www.remove.bg"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "inPixio Remove Background"
 caption = "去背工具"
 url = "https://www.inpixio.com/remove-background/"
 icon = "https://logo.clearbit.com/www.inpixio.com"
 
-[["Design"."壓縮圖片／圖片處理"]]
+[["設計"."壓縮圖片／圖片處理"]]
 title = "Adobe Express 去背"
 caption = "去背工具"
 url = "https://www.adobe.com/tw/express/feature/image/remove-background"
 icon = "https://logo.clearbit.com/www.adobe.com"
 
-[["Design"."Mockup 素材"]]
+[["設計"."Mockup 素材"]]
 title = "AI 實體產品 Mockup"
 caption = "AI 產品展示樣板"
 url = "https://flair.ai/"
 icon = "https://logo.clearbit.com/flair.ai"
 
-[["Design"."Mockup 素材"]]
+[["設計"."Mockup 素材"]]
 title = "截圖美化工具"
 caption = "螢幕截圖美化"
 url = "https://shots.so/"
 icon = "https://logo.clearbit.com/shots.so"
 
-[["Design"."Mockup 素材"]]
+[["設計"."Mockup 素材"]]
 title = "MockUPhone"
 caption = "手機外框素材"
 url = "https://mockuphone.com/#ios"
 icon = "https://logo.clearbit.com/mockuphone.com"
 
-[["Design"."其他工具組"]]
+[["設計"."其他工具組"]]
 title = "上傳平台 Imgur"
 caption = "影像上傳平台"
 url = "https://imgur.com/user/tony13382/posts"
 icon = "https://logo.clearbit.com/imgur.com"
 
-[["Design"."其他工具組"]]
+[["設計"."其他工具組"]]
 title = "QR Code 產生器"
 caption = "QR Code 產生工具"
 url = "https://qr.ioi.tw/zh/v6.php"
 icon = "https://www.google.com/s2/favicons?domain=qr.ioi.tw&sz=128"
 
-[["Design"."UI 設計資源"]]
-title = "Material Design"
+[["設計"."UI 設計資源"]]
+title = "Material 設計"
 caption = "Google 設計系統"
 url = "https://m3.material.io/"
 icon = "https://m3.material.io/static/assets/m3-favicon.ico"
 
-[["Design"."UI 設計資源"]]
+[["設計"."UI 設計資源"]]
 title = "Apple 人机界面指南"
 caption = "Apple 設計系統"
-url = "https://developer.apple.com/cn/design/human-interface-guidelines/"
-icon = "https://developer.apple.com/favicon.ico"
+url = "https://開發r.apple.com/cn/設計/human-interface-guidelines/"
+icon = "https://開發r.apple.com/favicon.ico"
 
-[["Design"."UI 設計資源"]]
-title = "Microsoft Fluent Design"
+[["設計"."UI 設計資源"]]
+title = "Microsoft Fluent 設計"
 caption = "微軟設計系統"
-url = "https://www.microsoft.com/design/fluent/#/"
+url = "https://www.microsoft.com/設計/fluent/#/"
 icon = "https://logo.clearbit.com/www.microsoft.com"
 
-[["Design"."UI 設計資源"]]
-title = "Ant Design"
+[["設計"."UI 設計資源"]]
+title = "Ant 設計"
 caption = "蚂蚁集团設計系統"
-url = "https://ant.design/"
+url = "https://ant.設計/"
 icon = "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png"
 
-[["Design"."UI 設計資源"]]
-title = "更多 Design System"
+[["設計"."UI 設計資源"]]
+title = "更多 設計 System"
 caption = "UProkit - Curated UI Kits"
-url = "https://prokit.notion.site/Design-System-5ad286a7241c48fa960bf8fdd322a1b5"
+url = "https://prokit.notion.site/設計-System-5ad286a7241c48fa960bf8fdd322a1b5"
 icon = "https://prokit.notion.site/images/favicon.ico"
 
-[["Design"."UI 設計資源"]]
+[["設計"."UI 設計資源"]]
 title = "APP 截圖｜UI Notes"
 caption = "APP UI 截圖收集"
 url = "https://uinotes.com/"
 icon = "https://uinotes.com/public/img/logo.svg"
 
-[["Design"."UI 設計資源"]]
+[["設計"."UI 設計資源"]]
 title = "App Motion"
 caption = "Mobile App 動畫參考"
-url = "https://appmotion.design/"
+url = "https://appmotion.設計/"
 icon = "https://framerusercontent.com/images/k0wxFckxvFRYtoPbMz1AyJ5xYs.png"
 
-[["Design"."UX 設計資源"]]
+[["設計"."UX 設計資源"]]
 title = "Laws of UX"
 caption = "UX 設計法則"
 url = "https://lawsofux.com/"
 icon = "https://lawsofux.com/icons/favicon.svg"
 
-[["Design"."UX 設計資源"]]
+[["設計"."UX 設計資源"]]
 title = "The UX Cookbook"
 caption = "UX 設計法則"
 url = "https://theuxcookbook.com"
 icon = "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/b14c9f7f-c5a7-48b4-8a7d-8b25c8674cf9/logo-base/w=32,quality=90,fit=scale-down"
 
-[["Design"."UX 設計資源"]]
+[["設計"."UX 設計資源"]]
 title = "UX 四神湯開放平台"
 caption = "設計師的共享圖書館"
-url = "https://www.opendesign.tw/"
+url = "https://www.open設計.tw/"
 icon = "https://assets.softr-files.com/applications/c867ccee-775f-4cb7-97a7-f6585cbf1b15/assets/01064c9c-0792-4305-bec8-49128e3ab329.jpeg?rnd=1670677165990"
 
 
-[["Design"."靈感相關"]]
+[["設計"."靈感相關"]]
 title = "設計師必備！網頁/UI 設計資源總整理"
 caption = "Medium 文章"
 url = "https://medium.com/我是狐狸犬來福/網頁-web-前端設計師資源整理-ff3961972549"
 icon = "https://logo.clearbit.com/medium.com"
 
 
-[["Design"."靈感相關"]]
-title = "Hotpot Design"
+[["設計"."靈感相關"]]
+title = "Hotpot 設計"
 caption = "AI 輔助設計工具"
 url = "https://hotpot.ai/"
 icon = "https://logo.clearbit.com/hotpot.ai"
 
 
-[["Design"."靈感相關"]]
+[["設計"."靈感相關"]]
 title = "Deck of Brilliance"
 caption = "帮助创意专业人士产生点子"
 url = "https://deckofbrilliance.com/zh-hans/"
@@ -654,98 +654,98 @@ icon = "https://www.sirstratalot.com/favicon-32x32.png"
 
 ##############################################
 
-["Office"]
-[["Office"."Tools"]]
+["辦公"]
+[["辦公"."Tools"]]
 title = "Google Drive"
 caption = "雲端儲存空間"
 url = "https://drive.google.com/drive/"
 icon = "https://logo.clearbit.com/drive.google.com"
 
-[["Office"."Tools"]]
+[["辦公"."Tools"]]
 title = "Slide｜Chroniclehq"
 caption = "簡報製作工具"
 url = "https://chroniclehq.com/"
 icon = "https://logo.clearbit.com/chroniclehq.com"
 
-[["Office"."Tools"]]
+[["辦公"."Tools"]]
 title = "Figma Slides"
 caption = "簡報設計工具"
 url = "https://www.figma.com/"
 icon = "https://static.figma.com/app/icon/1/favicon.ico"
 
-[["Office"."Tools"]]
+[["辦公"."Tools"]]
 title = "Adobe 線上 PDF"
 caption = "PDF 編輯工具"
 url = "https://www.adobe.com/tw/acrobat/online.html"
 icon = "https://www.adobe.com/content/dam/dx-dc/favicons/favicon.ico"
 
-[["Office"."Tools"]]
+[["辦公"."Tools"]]
 title = "iLovePDF"
 caption = "PDF 線上編輯工具"
 url = "https://www.ilovepdf.com/zh-tw"
 icon = "https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png"
 
-[["Office"."連結工具"]]
+[["辦公"."連結工具"]]
 title = "Dub.co"
 caption = "縮短網址工具"
 url = "https://app.dub.co/"
 icon = "https://app.dub.co/favicon.ico"
 
-[["Office"."連結工具"]]
+[["辦公"."連結工具"]]
 title = "Portaly.cc"
 caption = "link in bio 工具"
 url = "https://portaly.cc/admin"
 icon = "https://portaly.cc/_next/image?url=/logo-p.svg&w=128&q=75"
 
-[["Office"."白板工具"]]
+[["辦公"."白板工具"]]
 title = "tldraw"
 caption = "線上白板工具 免費・開源"
 url = "https://www.tldraw.com/"
 icon = "https://www.tldraw.com/favicon.svg"
 
-[["Office"."白板工具"]]
+[["辦公"."白板工具"]]
 title = "Miro"
 caption = "線上白板工具"
 url = "https://miro.com/"
 icon = "https://static-website.miro.com/miro-site-lp-build-assets/assets/favicon.ico"
 
-[["Office"."白板工具"]]
+[["辦公"."白板工具"]]
 title = "Canva Whiteboard"
 caption = "白板工具"
 url = "https://www.canva.com/zh_tw/"
 icon = "https://www.canva.com/favicon.ico"
 
-[["Office"."時間管理工具"]]
+[["辦公"."時間管理工具"]]
 title = "Notion Calender"
 caption = "Notion 官方行事曆工具"
 url = "https://calendar.notion.so/"
 icon = "https://logo.clearbit.com/calendar.notion.so"
 
-[["Office"."時間管理工具"]]
+[["辦公"."時間管理工具"]]
 title = "Google Calender"
 caption = "Google 行事曆"
 url = "https://calendar.google.com/calendar/"
 icon = "https://logo.clearbit.com/calendar.google.com"
 
-[["Office"."時間管理工具"]]
+[["辦公"."時間管理工具"]]
 title = "Simplymeet"
 caption = "線上會議排程工具"
 url = "https://simplymeet.me/"
 icon = "https://simplymeet.me/build/images/simplymeet/favicon/favicon.2d5af53a.ico"
 
-[["Office"."時間管理工具"]]
+[["辦公"."時間管理工具"]]
 title = "When2meet"
 caption = "團隊時間協調工具"
 url = "https://www.when2meet.com/"
 icon = "https://logo.clearbit.com/www.when2meet.com"
 
-[["Office"."文字作業"]]
+[["辦公"."文字作業"]]
 title = "顏文字大全"
 caption = "顏文字素材庫"
 url = "https://symbols.wisdom-life.in/zh-TW/emoticon/useful"
 icon = "https://symbols.wisdom-life.in/favicon.png"
 
-[["Office"."文字作業"]]
+[["辦公"."文字作業"]]
 title = "盤古之白 - 文案排版轉換"
 caption = "中英文字處理工具"
 url = "https://pangu.serko.dev"
