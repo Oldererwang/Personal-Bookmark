@@ -380,6 +380,12 @@ url = "https://www.webdesignrankings.com/resources/lolcolors/"
 icon = "https://logo.clearbit.com/www.webdesignrankings.com"
 
 [["設計"."Colors 色彩相關"]]
+title = "Tailwind Color 生成器"
+caption = "設計系統配色"
+url = "https://uicolors.app/create"
+icon = "https://uicolors.app/favicon.ico"
+
+[["設計"."Colors 色彩相關"]]
 title = "Ant 設計"
 caption = "設計系統配色"
 url = "https://ant.design/docs/spec/colors-cn"
