@@ -30,22 +30,23 @@ Example:
 """
 index = 0
 for tab_name in bookmark_datas.keys():
+    tab_tag = f"tabs-{tab_name.replace(' ', '-').lower()}"
     if index == 0:
         tabs_nav_html += f"""
-<button type="button" class="snap-start hs-tab-active:font-semibold hs-tab-active:border-brown-600 hs-tab-active:text-brown-600 py-4 px-2 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-brown-600 focus:outline-hidden focus:text-brown-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-brown-500 active" id="tabs-{tab_name}-item" aria-selected="true" data-hs-tab="#tabs-{tab_name}" aria-controls="tabs-{tab_name}" role="tab">
+<button type="button" class="snap-start hs-tab-active:font-semibold hs-tab-active:border-brown-600 hs-tab-active:text-brown-600 py-4 px-2 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-brown-600 focus:outline-hidden focus:text-brown-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-brown-500 active" id="{tab_tag}-item" aria-selected="true" data-hs-tab="#{tab_tag}" aria-controls="{tab_tag}" role="tab">
     {tab_name}
 </button>
 """
     elif 0 < index < len(bookmark_datas.keys()) - 1:
         tabs_nav_html += f"""
-<button type="button" class="snap-start hs-tab-active:font-semibold hs-tab-active:border-brown-600 hs-tab-active:text-brown-600 py-4 px-2 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-brown-600 focus:outline-hidden focus:text-brown-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-brown-500" id="tabs-{tab_name}-item" aria-selected="false" data-hs-tab="#tabs-{tab_name}" aria-controls="tabs-{tab_name}" role="tab">
+<button type="button" class="snap-start hs-tab-active:font-semibold hs-tab-active:border-brown-600 hs-tab-active:text-brown-600 py-4 px-2 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-brown-600 focus:outline-hidden focus:text-brown-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-brown-500" id="{tab_tag}-item" aria-selected="false" data-hs-tab="#{tab_tag}" aria-controls="{tab_tag}" role="tab">
     {tab_name}
 </button>
 """
     elif index == len(bookmark_datas.keys()) - 1:
         tabs_nav_html += f"""
 <div class="md:pe-14 snap-start">
-    <button type="button" class="snap-start hs-tab-active:font-semibold hs-tab-active:border-brown-600 hs-tab-active:text-brown-600 py-4 px-2 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-brown-600 focus:outline-hidden focus:text-brown-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-brown-500" id="tabs-{tab_name}-item" aria-selected="false" data-hs-tab="#tabs-{tab_name}" aria-controls="tabs-{tab_name}" role="tab">
+    <button type="button" class="snap-start hs-tab-active:font-semibold hs-tab-active:border-brown-600 hs-tab-active:text-brown-600 py-4 px-2 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-brown-600 focus:outline-hidden focus:text-brown-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-brown-500" id="{tab_tag}-item" aria-selected="false" data-hs-tab="#{tab_tag}" aria-controls="{tab_tag}" role="tab">
     {tab_name}
     </button>
 </div>
@@ -67,7 +68,8 @@ def get_bm_item_html(title: str, caption: str, url: str, icon: str):
 tabs_content_html = ""
 index = 0
 for tab_name, tab_contents in bookmark_datas.items():
-    body_html = f"""<div id="tabs-{tab_name}" class="{"hidden" if index != 0 else ""}" role="tabpanel" aria-labelledby="tabs-{tab_name}-item">"""
+    tab_tag = f"tabs-{tab_name.replace(' ', '-').lower()}"
+    body_html = f"""<div id="{tab_tag}" class="{"hidden" if index != 0 else ""}" role="tabpanel" aria-labelledby="{tab_tag}-item">"""
 
     for group_title, bookmarks in tab_contents.items():
         body_html += f"""<h3 class="font-semibold text-2xl text-gray-800 dark:text-neutral-200 py-3">{group_title}</h3>"""
