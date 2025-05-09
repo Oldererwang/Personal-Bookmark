@@ -9,10 +9,6 @@ def read_toml(file_path):
         raise ImportError(f"Error reading file: {file_path}. {e}")
 
 
-# 使用範例
-file_path = "bookmarks.toml"
-bookmark_datas = read_toml(file_path)
-
 
 def data_checker(bookmark_datas):
     counter = 0
@@ -31,3 +27,9 @@ def data_checker(bookmark_datas):
     else:
         raise ValueError("No data found in toml file.")
     print(f"Total items: {counter}")
+
+if __name__ == "__main__":
+    # 使用範例
+    file_path = "bookmarks.toml"
+    bookmark_datas = read_toml(file_path)
+
